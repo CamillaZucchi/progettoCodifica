@@ -48,9 +48,18 @@
                 <date when="yyyyyy" /> va indicato l'uri dell'edizione digitale delle lettere -->
 			</publicationStmt>
 			<sourceDesc>
-				<bibl source="#Seminara2017" resp="#GS" ana="455">
-							<citedRange unit="page">pag. 328</citedRange>
+				<bibl source="#Amore1894" resp="#A" from="325" to="326"> 
+					<citedRange unit="page">pagg. 325-326</citedRange>
 				</bibl>
+				<bibl source="#Cambi1943" resp="#C" ana="385">
+					<citedRange unit="page">pag. 385</citedRange>
+				</bibl>
+				<bibl source="#Neri2005" resp="#N" from="275" to="276">
+					<citedRange unit="page">pagg. 275-276</citedRange>
+				</bibl>	
+				<bibl source="#Seminara2017" resp="#GS" ana="328">
+							<citedRange unit="page">pag. 328 n. 266/1</citedRange>	
+				</bibl>	      
 				<msDesc corresp="#LL1.13_II">
 					<msIdentifier corresp="#LL1.13_II">
 						<country>Italy</country>
@@ -59,7 +68,7 @@
 						<!-- riferimento al catalogo delle sigle dei musei in cui è definito I-CATm -->
 						<!-- mettere come secondo valore di ref del tag repository l'URI del nodo museo del dataset del Belliniano -->
 						<idno type="inventory" corresp="#LL1.13_II">LL1.13 II</idno>						<!-- segnatura della singola lettera -->
-						<altIdentifier corresp="#LL1.31"><idno type="collocation">in esposizione nella casa natale, sala B, vetrina 4, ripiano 1, III, b</idno></altIdentifier>
+						<altIdentifier corresp="#LL1.13_II"><idno type="collocation">in esposizione nella casa natale, sala B, vetrina 4, ripiano 1, III, b</idno></altIdentifier>
 						<!-- collocazione della lettera al museo -->
 					</msIdentifier>
 					<msContents>
@@ -76,48 +85,31 @@
 							<supportDesc>
 								<support>
 									<material>carta sottile</material>
-									<p> Documento composto da una minuta di lettere, su un unico foglio. MODIFICA DA QUI 
-                                        Un foglio è piegato in due, formando quindi quattro superfici, due esterne e due interne. La prima faccia esterna è la sola a recare del testo.
-                                        Le altre facce del foglio piegato, vuote, sono in condizioni abbastanza buone : nella faccia interna a destra si possono vedere due segni di impronte digitali in basso a destra, e dei leggerissimi segni di inchiostro, che probabilmente sono trapassati dal lato scritto durante la scrittura o la conservazione. 
-                                        Il secondo foglio, invece, non è intero, ed è sciupato su tutti i lati : a sinistra e in basso ci sono segni di strappi che sembrano derivare da un cattivo taglio del foglio; a destra e in alto ci sono segni di usura. Nel retro di questo foglio possiamo vedere altri due segni in alto a sinistra, forse causati dalla colla.
-                                        La carta è sottile e senza filigrana, di colore beige. Il testo è scritto con inchiostro nero.
+									<p> Documento composto da una minuta di lettere, su un unico foglio, recto e verso. MODIFICA DA QUI 
+                                        Entrambe le facce recano del testo. Il recto è sciupato in alto a sinistra e, sempre in alto, si legge male. Il verso a sua volta è sciupato in alto a sinistra ed contiene due righe scritte in verticale.
+                            		La carta è sottile e senza filigrana, di colore beige. Il testo è scritto con inchiostro nero.
 					 							<!-- descrizione fisica della lettera -->
 									</p>
 								</support>
 								<extent>
-									<measure corresp="#LL1.31_II" type="folio">2</measure>				<!--  va inserita la quantità dell'oggetto, indicando in type il tipo descritto --> <!-- primo foglio-->
-									<dimensions unit="mm" corresp="#LL1.31_II"> 
-										<height>135</height>
-										<width>102</width>
-                                    </dimensions>
-                                    <measure corresp="#LL1.31_I" type="folio">1</measure> <!-- secondo foglio-->
-                                    <dimensions unit="mm" corresp="#LL1.31_I"> 
-										<height>97</height>
+									<measure corresp="#LL1.13_II" type="folio">1</measure>				<!--  va inserita la quantità dell'oggetto, indicando in type il tipo descritto --> <!-- primo foglio-->
+									<dimensions unit="mm" corresp="#LL1.13_II"> 
+										<height>204</height>
 										<width>133</width>
-									</dimensions>
+                                    </dimensions>
 								</extent>
-								<foliation>
-									<p>		<!-- es. folio verso a sx, folio recto a dx con suddivisioni ulteriori. -->
-                                            Il <ref target="#LL1.31_II">foglio superiore</ref> è piegato in due parti uguali.
-											Il <ref target="#LL1.31_I">foglio inferiore</ref> è attaccato alla superfice frontale del <ref target="#LL1.31_II">primo foglio</ref> con della colla.
-										</p>
-								</foliation>
 								<condition>
 									<!-- descrizione delle condizioni fisiche di conservazione della lettera -->
-									<p>Il <ref target="#LL1.31_II">primo foglio</ref> è in condizioni abbastanza buone, il <ref target="#LL1.31_I">secondo</ref> invece è in condizioni peggiori, ma il testo rimane leggibile.</p>
+									<p>Il recto è in condizioni discrete, il verso invece è in condizioni leggermente peggiori, se si considera che il testo è scritto anche in verticale: ciò vizia la decifrazione dello scritto.</p>
 								</condition>
 							</supportDesc>
 						</objectDesc>
-						<handDesc hands="3">
+						<handDesc hands="2">
 							<handNote corresp="#VB"><p>
-                                Scrittura a mano libera leggibile. Presenti due correzioni ed una cancellatura nel <ref target="#LL1.31_I">secondo foglio</ref>. 
+                                Scrittura a mano libera abbastanza leggibile. Presenti cinque cancellazioni nel recto, quattro nel verso, dove si notano anche due macchie. Nel recto si notano, inoltre, anche una scritta, una sigla e una correzione interlineare; nel verso, invece, sono tre le correzioni interlineari.  
 							</p></handNote>
-							<handNote xml:id="h2">
-								<p>Scrittura a mano libera poco leggibile; probabilmente si tratta di un codice di una vecchia catalogazione francese, seguito da una firma cifrata. Questi segni appaiono sul lato scritto di entrambi i fogli.
-								</p>
-							</handNote>
-							<handNote xml:id="h1">	
-								<p> Scrittura a mano libera leggibile; probabilmente numeri di una vecchia catalogazione, a matita blu. Questi segni appaiono sull'ultima faccia del <ref target="#LL1.31_II">primo foglio</ref>.
+							<handNote xml:id="h1">
+								<p>Scrittura a mano non leggibile: da non escludere che si tratti di una firma cifrata accompagnata da una qualche dicitura. Questi segni si trovano sul recto.
 								</p>
 							</handNote>
 						</handDesc>
@@ -146,7 +138,7 @@
 					<date when="1834-02-14">14 febbrao 1834</date>			
 				</correspAction >
 				<correspContext >
-					<p>Del destinatario del messaggio non si conosce più del suo nome (<persName ref="#unknownPers">Frederic</persName>), ma sembra che lui e <persName ref="#VB" role="composer">Bellini</persName> avessero parlato dell'accordatura di un pianoforte precedentemente alla scrittura di queste righe. Il <persName ref="#unknownPers">signor Frederic</persName> sembra d'altra parte sapere che l'alloggio di <persName ref="#VB" role="composer">Bellini</persName> è vicino ai <orgName ref="#Bains_Chinois">Bains Chinois</orgName>.</p>
+					<p>MODIFICA DA QUI Del destinatario del messaggio non si conosce più del suo nome (<persName ref="#unknownPers">Frederic</persName>), ma sembra che lui e <persName ref="#VB" role="composer">Bellini</persName> avessero parlato dell'accordatura di un pianoforte precedentemente alla scrittura di queste righe. Il <persName ref="#unknownPers">signor Frederic</persName> sembra d'altra parte sapere che l'alloggio di <persName ref="#VB" role="composer">Bellini</persName> è vicino ai <orgName ref="#Bains_Chinois">Bains Chinois</orgName>.</p>
 				</correspContext>
 			</correspDesc>
 			<correspDesc ref="#LL1.31_II">
