@@ -136,36 +136,34 @@
 					<persName ref="#GG">Giovanni Galeota</persName>
 					<placeName ref="#Paris" type="receving">Paris</placeName>
 					<date when="1834-02-14">14 febbrao 1834</date>			
-				</correspAction >
-				<correspContext >
-					<p>MODIFICA DA QUI Del destinatario del messaggio non si conosce più del suo nome (<persName ref="#unknownPers">Frederic</persName>), ma sembra che lui e <persName ref="#VB" role="composer">Bellini</persName> avessero parlato dell'accordatura di un pianoforte precedentemente alla scrittura di queste righe. Il <persName ref="#unknownPers">signor Frederic</persName> sembra d'altra parte sapere che l'alloggio di <persName ref="#VB" role="composer">Bellini</persName> è vicino ai <orgName ref="#Bains_Chinois">Bains Chinois</orgName>.</p>
+				</correspAction>
+				<correspContext>
+					<p>Il destinatario del messaggio è il cavaliere <persName ref="#GG">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
+						A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#RTIP">Reale Teatro Italiano di Parigi</placeName>.</p>
 				</correspContext>
 			</correspDesc>
-			<correspDesc ref="#LL1.31_II">
+			<correspDesc ref="#LL1.13_II">
 				<correspAction type="sent">
 					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
-					<placeName ref="#Paris" type="receving">Parigi</placeName>
-					<date when="1834-06">giugno 1834</date>
+					<placeName ref="#Paris" type="writing">Parigi</placeName>
+					<date when="1834-02-14">14 febbraio 1834</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="#ETT">Giovanni Galeota</persName>
-					<placeName ref="#Paris" type="writing">Paris</placeName>
-					<date when="1834-06" type="postmark">14 febbraio 1834</date>			
-				</correspAction >
+					<persName ref="#GG">Giovanni Galeota</persName>
+					<placeName ref="#Napoli" type="receiving">Napoli</placeName>			
+				</correspAction>
 				<correspContext>
-					<p>Dal testo di questa minuta, si può dedurre che <persName ref="#VB" role="composer">Bellini</persName> e <persName ref="#ETT">Troupenas</persName> avessero già parlato di una persona che chiedeva la <term type="music-term" ref="#partitura">partitura</term> dei <term type="work" ref="#Puritani">Puritani</term>.</p>
+					<p>Dal testo di questa minuta, si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GG" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
+						dal <placeName ref="#TSC">Teatro San Carlo</placeName>.<p>
 				</correspContext>
 			</correspDesc>
 
-			<textClass>
-				<keywords scheme="http://thes.bncf.firenze.sbn.it">			
+			<textClass>		
 					<term resp="#GS"> Minuta di lettera 					
 					</term>
-				</keywords>
 			</textClass>
 			<langUsage>
-				<language ident="fr" corresp="#LL1.31_I">Francese.</language>
-				<language ident="fr" corresp="#LL1.31_II">Francese con espressioni idiomatiche presumibilmente scorrette.</language>
+				<language ident="it" corresp="#LL1.13_II">Italiano</language>
 			</langUsage>
 		</profileDesc>
 	</teiHeader>
