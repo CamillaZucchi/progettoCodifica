@@ -2,13 +2,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?-->
 
-<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<!DOCTYPE TEI SYSTEM "tei-all.dtd">
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt xml:id="LL1.13_II">
-				<title xml:id="LL1.13_II">Vincenzo Bellini a Giovanni Galeota, in Parigi, 14 febbraio 1834. </title>
+				<title>Vincenzo Bellini a Giovanni Galeota, in Parigi, 14 febbraio 1834. </title>
 				<!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
 				<author ref="#VB">Vincenzo Bellini</author>
 				<respStmt>
@@ -138,8 +138,8 @@
 					<date when="1834-02-14">14 febbrao 1834</date>			
 				</correspAction>
 				<correspContext>
-					<p>Il destinatario del messaggio è il cavaliere <persName ref="#GG">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
-						A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#RTIP">Reale Teatro Italiano di Parigi</placeName>.</p>
+					Il destinatario del messaggio è il cavaliere <persName ref="#GG">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
+					A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#RTIP">Reale Teatro Italiano di Parigi</placeName>.
 				</correspContext>
 			</correspDesc>
 			<correspDesc ref="#LL1.13_II">
@@ -153,11 +153,10 @@
 					<placeName ref="#Napoli" type="receiving">Napoli</placeName>			
 				</correspAction>
 				<correspContext>
-					<p>Dal testo di questa minuta, si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GG" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
-						dal <placeName ref="#TSC">Teatro San Carlo</placeName>.<p>
+					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GG" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
+					dal <placeName ref="#TSC">Teatro San Carlo</placeName>.
 				</correspContext>
 			</correspDesc>
-
 			<textClass>		
 					<term resp="#GS"> Minuta di lettera 					
 					</term>
@@ -167,4 +166,5 @@
 			</langUsage>
 		</profileDesc>
 	</teiHeader>
+
   </TEI>
