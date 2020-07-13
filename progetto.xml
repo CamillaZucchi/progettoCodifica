@@ -22,12 +22,12 @@
 				</edition>
 				<respStmt>
 					<resp>Digital edition project coordineted by</resp>
-					<name xml:id="ADG">Angelo Mario Del Grosso</name>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
 					<name xml:id="DS">Daria Spampinato</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding by</resp>
-					<name ref="#ADG">Angelo Mario Del Grosso</name>
+					<name ref="#AMDG">Angelo Mario Del Grosso</name>
 					<name xml:id="EC">Erica Capizzi</name>
 					<name ref="#DS">Daria Spampinato</name>
 				</respStmt>
@@ -138,8 +138,8 @@
 					<date when="1834-02-14">14 febbrao 1834</date>			
 				</correspAction>
 				<correspContext>
-					Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
-					A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#RTIP">Reale Teatro Italiano di Parigi</placeName>.
+					Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#San_Carlo">Teatro San Carlo</placeName>. 
+					A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#Teatro_italiano">Reale Teatro Italiano</placeName> di <placeName ref="#Paris>Parigi</placeName>.
 				</correspContext>
 			</correspDesc>
 			<correspDesc ref="#LL1.13_II">
@@ -153,8 +153,8 @@
 					<placeName ref="#Napoli" type="receiving">Napoli</placeName>			
 				</correspAction>
 				<correspContext>
-					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GGa" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
-					dal <placeName ref="#TSC">Teatro San Carlo</placeName>.
+					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GGa" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'<term type="music term">opera</term> commissionatagli per e 
+					dal <placeName ref="#San_Carlo">Teatro San Carlo</placeName>.
 				</correspContext>
 			</correspDesc>
 			<textClass>		
