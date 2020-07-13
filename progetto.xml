@@ -168,9 +168,9 @@
 	</teiHeader>
 	<text xml:lang="it">
 <div type="letter-body">
-	<lb xml:id="fronte_1"><w><placeName ref="#Paris">Parigi</placeName></w><date><w>14</w> <w>Feb</w></date></lb>    
+	<lb xml:id="fronte_1"><placeName ref="#Paris"><w>Parigi</w></placeName></w><date><w>14</w> <w>Feb</w></date></lb>    
 	<lb xml:id="fronte_2"></lb>
 </div>
 </text>
 
-  </TEI>
+ </TEI>
