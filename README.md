@@ -75,7 +75,7 @@
 							<title type="uniform" xml:lang="it">
 								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a	<persName ref="#ETT">Eugène Troupenas</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-06">giugno 1834</date>
 							</title>
-							<textLang mainLang="fr">Francese.</textLang>
+							<textLang mainLang="it">italiano</textLang>
 						</msItem>
 					</msContents>
 					<physDesc>
