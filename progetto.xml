@@ -75,7 +75,7 @@
 						<msItem corresp="#LL1.13_II">
 							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
 							<title type="uniform" xml:lang="it">
-								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#GG" role="cavalier">Giovanni Galeota</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-02-14">14 febbraio 1834</date>
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#GGa" role="cavalier">Giovanni Galeota</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-02-14">14 febbraio 1834</date>
 							</title>
 							<textLang mainLang="it">italiano.</textLang>
 						</msItem>
@@ -133,12 +133,12 @@
 					<date when="1834-02-14" type="postmark">14 febbraio 1834</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="#GG">Giovanni Galeota</persName>
+					<persName ref="#GGa">Giovanni Galeota</persName>
 					<placeName ref="#Paris" type="receving">Paris</placeName>
 					<date when="1834-02-14">14 febbrao 1834</date>			
 				</correspAction>
 				<correspContext>
-					Il destinatario del messaggio è il cavaliere <persName ref="#GG">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
+					Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#TSC">Teatro San Carlo</placeName>. 
 					A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#RTIP">Reale Teatro Italiano di Parigi</placeName>.
 				</correspContext>
 			</correspDesc>
@@ -149,11 +149,11 @@
 					<date when="1834-02-14">14 febbraio 1834</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="#GG">Giovanni Galeota</persName>
+					<persName ref="#GGa">Giovanni Galeota</persName>
 					<placeName ref="#Napoli" type="receiving">Napoli</placeName>			
 				</correspAction>
 				<correspContext>
-					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GG" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
+					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GGa" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'opera commissionatagli per e 
 					dal <placeName ref="#TSC">Teatro San Carlo</placeName>.
 				</correspContext>
 			</correspDesc>
