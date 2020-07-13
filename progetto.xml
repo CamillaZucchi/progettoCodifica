@@ -168,8 +168,12 @@
 	</teiHeader>
 	<text xml:lang="it">
 <div type="letter-body">
-	<lb xml:id="fronte_1"><placeName ref="#Paris"><w lemma="Parigi" pos="">Parigi</w></placeName></w><date><w lemma="14" pos="">14</w> <w lemma="febbraio" pos="">Feb</w></date></lb>    
-	<lb xml:id="fronte_2"></lb>
+	<p n=1 facs=LL1.13.II_0001.jpg>					
+	<lb xml:id="fronte_1"><placeName ref="#Paris"><hi rend="align(right)"><w lemma="Parigi" pos="">Parigi</w></placeName></w><date><w lemma="14" pos="">14</w> <w lemma="febbraio" pos="">Feb</w></date></hi></lb>    
+	<salute>					
+	<lb xml:id="fronte_2"><w lemma="pregiatissimo">Preg</w> <w lemma="signore">Sig<w> <w lemma="cavaliere">Cavaliere</w></lb>
+	</salute>					
+	</p>					
 </div>
 </text>
 
