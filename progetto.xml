@@ -162,13 +162,13 @@
 					</term>
 			</textClass>
 			<langUsage>
-				<language ident="it" corresp="#LL1.13_II">Italiano</language>
+				<language ident="it" corresp="#LL1.13_II">italiano</language>
 			</langUsage>
 		</profileDesc>
 	</teiHeader>
 	<text xml:lang="it">
 <div type="letter-body">
-	<lb xml:id="fronte_1"><placeName ref="#Paris"><w>Parigi</w></placeName></w><date><w>14</w> <w>Feb</w></date></lb>    
+	<lb xml:id="fronte_1"><placeName ref="#Paris"><w lemma="Parigi" pos="">Parigi</w></placeName></w><date><w lemma="14" pos="">14</w> <w lemma="febbraio" pos="">Feb</w></date></lb>    
 	<lb xml:id="fronte_2"></lb>
 </div>
 </text>
