@@ -85,8 +85,7 @@
 							<supportDesc>
 								<support>
 									<material>carta sottile</material>
-									<p> Documento composto da una minuta di lettere, su un unico foglio, recto e verso. MODIFICA DA QUI 
-                                        Entrambe le facce recano del testo. Il recto è sciupato in alto a sinistra e, sempre in alto, si legge male. Il verso a sua volta è sciupato in alto a sinistra ed contiene due righe scritte in verticale.
+									<p> Documento composto da una minuta di lettere, su un unico foglio, recto e verso. Entrambe le facce recano del testo. Il recto è sciupato in alto a sinistra e, sempre in alto, si legge male. Il verso a sua volta è sciupato in alto a sinistra ed contiene due righe scritte in verticale.
                             		La carta è sottile e senza filigrana, di colore beige. Il testo è scritto con inchiostro nero.
 					 							<!-- descrizione fisica della lettera -->
 									</p>
@@ -166,6 +165,68 @@
 			</langUsage>
 		</profileDesc>
 	</teiHeader>
+	<!--******************************************************************************************************************-->
+	<!--******************************************************************************************************************-->
+	<facsimile>
+		<surfaceGrp>
+			<surfaceGrp n="1">
+				<surface n="1" points (CAPIRE) = ' 87,44 1284,38 1281,1616 91,1632 ' xml:id="LL1.13.II_0001">
+					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
+					CAPIRE<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_01"/>
+					<zone points = ' 256,309 234,413 1275,404 1274,295 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_02"/>
+					<zone points = ' 209,420 202,532 1276,515 1279,408 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_03"/>
+					<zone points = ' 202,535 198,663 1249,646 1237,524 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_04"/>
+					<zone points = ' 200,669 202,768 1021,720 1021,642 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_05"/>
+					<zone points = ' 799,828 1150,786 1162,1453 805,1449 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_II_hotspot_1fr_01"/> <!--ROBO STRANO-->
+					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
+					<zone points = ' 593,1433 789,1418 853,1572 612,1600 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1fr_02"/> <!--COLLA-->
+				</surfa
+				<surface n="1" points(CAPIRE) = ' 80,1462 1621,1464 1620,2611 38,2606 ' corresp="#LL1.13.II_0002">
+					<graphic url="LL1.13.II_0002.jpg" width='1645px' height='2642px'/>
+					CAPIRE<zone points = ' 1154,1498 787,1582 845,2290 1050,2276 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_I_hotspot_2f_01"/> <!--ROBO STRANO-->
+					<zone points = ' 420,1959 412,2065 1428,2086 1440,2005 1440,2004 1444,1998 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_01"/>
+					<zone points = ' 334,2066 326,2175 1147,2176 1346,2173 1540,2209 1554,2090 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_02"/>
+					<zone points = ' 320,2183 1535,2195 1532,2286 312,2285 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_03"/>
+					<zone points = ' 1146,2176 1138,2270 1371,2275 1376,2175 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_02"/> <!--PRIMA CORREZIONE-->
+					<zone points = ' 309,2289 292,2381 1440,2382 1459,2286 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_04"/>
+					<zone points = ' 300,2380 298,2470 1615,2479 1616,2384 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_05"/>
+					<zone points = ' 854,2378 843,2472 1295,2467 1297,2388 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_03"/> <!--SOTTOLINEATO-->
+					<zone points = ' 299,2472 294,2545 1508,2566 1509,2476 ' rendition="Line" xml:id="LL1.31_I_line_2f_06"/>
+					<zone points = ' 975,2463 1192,2463 1193,2556 960,2554 ' rendition="Hotspot" hand="#VB" xml:id="LL1.31_I_hotspot_2f_04"/> <!--SECONDA CORREZIONE-->
+					<zone points = ' 1195,2477 1173,2552 1492,2561 1499,2486 ' rendition="Hotspot" xml:id="LL1.31_I_hotspot_2f_06"/> <!--DANNO-->
+				</surface>
+			</surfaceGrp>
+
+			<surfaceGrp n="2">
+				<surface n="2" points = ' 283,133 795,133 795,817 279,816 ' xml:id="LL1.31_folio_1rr">
+					<graphic url='LL1.31.I-II_folio_2.jpg' width='1240px' height='1755px' />
+					<pb n="2" rend="overlap" corresp="#LL1.31_folio_2r"/>
+					<zone points = ' 470,731 583,728 584,803 466,802 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1rr_01"/> <!--COLLA-->
+				</surface>
+				<surface n="2" points = ' 132,746 797,744 815,1237 135,1241 ' corresp="#LL1.31_folio_2r">
+					<graphic url='LL1.31.I-II_folio_2.jpg' width='1240px' height='1755px' />
+
+				</surface>
+			</surfaceGrp>
+
+			<surface n="3" points = ' 143,136 972,133 960,1238 139,1236 ' xml:id="LL1.31_folio_1rv">
+				<graphic url='LL1.31.I-II_folio_3.jpg' width='1240px' height='1755px' />
+			</surface>
+
+			<surfaceGrp n="4">
+				<surface n="4" points = ' 285,130 802,135 795,817 284,813 ' xml:id="LL1.31_folio_1fv">
+					<graphic url='LL1.31.I-II_folio_4.jpg' width='1240px' height='1755px' />
+					<pb n="2" rend="overlap" corresp="#LL1.31_folio_2r"/>
+					<zone points = ' 742,656 757,788 559,796 556,663 ' rendition="Hotspot" hand="h1" xml:id="LL1.31_II_hotspot_1fv_01"/> <!--SEGNI A MATITA BLU DELLA CATALOGAZIONE-->
+				</surface>
+				<surface n="4"  points = ' 139,742 802,746 814,1234 134,1235 ' corresp="#LL1.31_folio_2r">
+					<graphic url='LL1.31.I-II_folio_4.jpg' width='1240px' height='1755px' />
+				</surface>
+			</surfaceGrp>
+		</surfaceGrp>
+	</facsimile>						
+					
+						
 	<text xml:lang="it">
 <div type="letter-body">
 	<p n=1 facs=LL1.13.II_0001.jpg>					
@@ -178,7 +239,7 @@
 	<lb xml:id="fronte_2"><salute><w lemma="pregiatissimo"><abbr>Preg.mo</abbr></w> 
     <w lemma="signore"><abbr>Sig.re</abbr><w> 
     <w lemma="cavaliere">Cavaliere</w> 
-   <persName ref="#GGa"><add>Giovanni Galeota</add></salute> <foreign xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cotisation</unclear></add></foreign></lb>						
+   <persName ref="#GGa"><add>Giovanni Galeota</add></salute> <mentioned xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cote fil</unclear></add></mentioned></lb>						
    <lb xml:id="fronte_3"><w lemma="il">Il</w><w lemma="lusinghiero">lusinghiero</w> <w lemma="invito">invito</w> <w>che</w> <w>per</w><w lemma="suo">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo">mezzo</w></lb>
     <lb xml:id="fronte_4"> <w lemma="ricevere"> ricevo</w> <w lemma="del">della</w> <orgName xml:id="#NS"> Nobile Società</orgName> <w>per</w> <w lemma="scrivere">scrivere</w></lb>
     <lb xml:id="fronte_5"> <w lemma="un">un'</w> <w type="music term"> opera</w> <w>al</w> <w lemma="nostro">nostro</w> <orgName ref="#San_Carlo"> Gran teatro</orgName> <add> Teatro San Carlo</add> <w lemma="mi"> mi</w></lb>
