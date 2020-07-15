@@ -169,11 +169,25 @@
 	<text xml:lang="it">
 <div type="letter-body">
 	<p n=1 facs=LL1.13.II_0001.jpg>					
-	<lb xml:id="fronte_1"><placeName ref="#Paris"><hi rend="align(right)"><w lemma="Parigi" pos="">Parigi</w></placeName></w><date><w lemma="14" pos="">14</w> <w lemma="febbraio" pos="">Feb</w></date></hi></lb>    
+	<lb xml:id="fronte_1"><placeName ref="#Paris">
+    <hi rend="align(right)"><w lemma="Parigi" pos="">Parigi</w>
+    </placeName></w><date>
+    <num type="cardinal">14</num> <w lemma="febbraio" pos="">Feb</w>
+    </date></hi></lb>    che<w>
 	<salute>					
-	<lb xml:id="fronte_2"><w lemma="pregiatissimo">Preg</w> <w lemma="signore">Sig<w> <w lemma="cavaliere">Cavaliere</w></lb>
-	</salute>					
-	</p>					
+	<lb xml:id="fronte_2"><salute><w lemma="pregiatissimo"><abbr>Preg.mo</abbr></w> 
+    <w lemma="signore"><abbr>Sig.re</abbr><w> 
+    <w lemma="cavaliere">Cavaliere</w> 
+   <persName ref="#GGa"><add>Giovanni Galeota</add></salute> <foreign xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cotisation</unclear></add></foreign></lb>						
+   <lb xml:id="fronte_3"><w lemma="il">Il</w><w lemma="lusinghiero">lusinghiero</w> <w lemma="invito">invito</w> <w>che</w> <w>per</w><w lemma="suo">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo">mezzo</w></lb>
+    <lb xml:id="fronte_4"> <w lemma="ricevere"> ricevo</w> <w lemma="del">della</w> <orgName xml:id="#NS"> Nobile Società</orgName> <w>per</w> <w lemma="scrivere">scrivere</w></lb>
+    <lb xml:id="fronte_5"> <w lemma="un">un'</w> <w type="music term"> opera</w> <w>al</w> <w lemma="nostro">nostro</w> <orgName ref="#San_Carlo"> Gran teatro</orgName> <add> Teatro San Carlo</add> <w lemma="mi"> mi</w></lb>
+    <lb xml:id="fronte_6"> <w lemma="recare">reca</w> <w lemma="il">la</w> <w>più</w> <w lemma="piacevole">piacevole</w> <w lemma="soddisfazione">sodisfazione</w> <w>che</w></lb>
+    <lb xml:id="fronte_7"> <w lemma="si">si<w> <w lemma="potere">possa</w> <w lemma"sentire">sentire</w> <pc force="strong">;</pc> <w lemma="io">io</w> <w>non</w> <w lemma="potere">potrei</w> <w lemma="rispondere">ris-</w></lb>
+    <lb xml:id="fronte_8"> <w lemma="rispondere">pondere</w> <w>a</w> <w lemma="tale">tale</w> <w lemma="onore">onore</w> <w>che</w> <w lemma="impegnarsi">impegnando-</w></lb>
+    <lb xml:id="fronte_9"> <w lemma="impegnarsi">mi</w> <w>vi</w> <w lemma="essere">è</w> <w>più</w> <w>a</w> <w lemma="comporre>comporre</w> <w lemma="il>l'</w> <w type="music term" lemma="opera">opera<w> <w>che</w> <w lemma="mi">mi</w></lb>
+    <lb xml:id="fronte_10"> <w>si</w> <w lemma="chiedere">chiede</w> <w>con</w> <w lemma="tutto">tutta</w> <w lemma="il">l'</w> <w emma="attenzione">attenzione</w> <gap reason="deleted">ed</gap> <add place="above">e con</add> <w lemma="quello">quei</w></lb> 				
+    <lb xml:id="fronte_11"> <w lemma="mezzo">mezzi</w> <w>che</w> <w lemma="il">la</w> <w lemma="natura">natura</w> <w lemma="mi">m’</w> <w lemma="accordare">accorda</w> <pc force="weak">,</pc> <w>e</w></lb>
 </div>
 </text>
 
