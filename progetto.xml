@@ -108,7 +108,7 @@
                                 Scrittura a mano libera abbastanza leggibile. Presenti cinque cancellazioni nel recto, quattro nel verso, dove si notano anche due macchie. Nel recto si notano, inoltre, anche una scritta, una sigla e una correzione interlineare; nel verso, invece, sono tre le correzioni interlineari.  
 							</p></handNote>
 							<handNote xml:id="h1">
-								<p>Scrittura a mano non leggibile: da non escludere che si tratti di una firma cifrata accompagnata da una qualche dicitura. Questi segni si trovano sul recto.
+								<p>Scrittura a mano non leggibile: da non escludere che si tratti di una firma cifrata preceduta da una qualche dicitura di catalogazione. Questi segni si trovano sul recto.
 								</p>
 							</handNote>
 						</handDesc>
@@ -172,15 +172,18 @@
 			<surfaceGrp n="1">
 				<surface n="1" points (CAPIRE) = ' 87,44 1284,38 1281,1616 91,1632 ' xml:id="LL1.13.II_0001">
 					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
-					CAPIRE<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_01"/>
+					<zone points = ' 1212,188 1432,104 1433,835 1237,874 ' rendition="Line" hand="#VB" xml:id="LL.13_II_line_1_01/>
+                                        <zone ulx="306" uly="84" lrx="1547" lry="90" />
+					<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1_02"/>
 					<zone points = ' 256,309 234,413 1275,404 1274,295 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_02"/>
 					<zone points = ' 209,420 202,532 1276,515 1279,408 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_03"/>
+					<zone points = ' 1212,188 1432,104 1433,835 1237,874 'rendition="Hotspot" hand="#OTHER" xml:id="LL1.13_II_line_2-3"/>	
 					<zone points = ' 202,535 198,663 1249,646 1237,524 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_04"/>
 					<zone points = ' 200,669 202,768 1021,720 1021,642 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_05"/>
 					<zone points = ' 799,828 1150,786 1162,1453 805,1449 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_II_hotspot_1fr_01"/> <!--ROBO STRANO-->
 					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
 					<zone points = ' 593,1433 789,1418 853,1572 612,1600 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1fr_02"/> <!--COLLA-->
-				</surfa
+					</surface>
 				<surface n="1" points(CAPIRE) = ' 80,1462 1621,1464 1620,2611 38,2606 ' corresp="#LL1.13.II_0002">
 					<graphic url="LL1.13.II_0002.jpg" width='1645px' height='2642px'/>
 					CAPIRE<zone points = ' 1154,1498 787,1582 845,2290 1050,2276 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_I_hotspot_2f_01"/> <!--ROBO STRANO-->
