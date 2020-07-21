@@ -237,10 +237,10 @@
     <hi rend="align(right)"><w lemma="Parigi" pos="">Parigi</w>
     </placeName></w><date>
     <num type="cardinal">14</num> <w lemma="febbraio" pos="">Feb</w>
-    </date></hi></lb>    che<w>
+    </date></hi></lb> 
 	<salute>					
 	<lb xml:id="fronte_2"><salute><w lemma="pregiatissimo"><abbr>Preg.mo</abbr></w> 
-    <w lemma="signore"><abbr>Sig.re</abbr><w> 
+    <w lemma="signore"><abbr>Sig.re</abbr></w> 
     <w lemma="cavaliere">Cavaliere</w> 
    <persName ref="#GGa"><add>Giovanni Galeota</add></salute> <mentioned xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cote fil</unclear></add></mentioned></lb>						
    <lb xml:id="fronte_3"><w lemma="il">Il</w><w lemma="lusinghiero">lusinghiero</w> <w lemma="invito">invito</w> <w>che</w> <w>per</w><w lemma="suo">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo">mezzo</w></lb>
@@ -252,7 +252,11 @@
     <lb xml:id="fronte_9"> <w lemma="impegnarsi">mi</w> <w>vi</w> <w lemma="essere">è</w> <w>più</w> <w>a</w> <w lemma="comporre>comporre</w> <w lemma="il>l'</w> <w type="music term" lemma="opera">opera<w> <w>che</w> <w lemma="mi">mi</w></lb>
     <lb xml:id="fronte_10"> <w>si</w> <w lemma="chiedere">chiede</w> <w>con</w> <w lemma="tutto">tutta</w> <w lemma="il">l'</w> <w emma="attenzione">attenzione</w> <gap reason="deleted">ed</gap> <add place="above">e con</add> <w lemma="quello">quei</w></lb> 				
     <lb xml:id="fronte_11"> <w lemma="mezzo">mezzi</w> <w>che</w> <w lemma="il">la</w> <w lemma="natura">natura</w> <w lemma="mi">m’</w> <w lemma="accordare">accorda</w> <pc force="weak">,</pc> <w>e</w></lb>
-</div>
+    <lb xml:id="fronte_12"> <w>perciò</w> <w lemma="essere">sono</w> <w lemma="nel">nel</w> <w lemma="dispiacente">dispiacente</w> <w lemma="caso>caso</w> <w>di</w> <w>non</w> </lb>
+    <lb xml:id="fronte_13"> <w lemma="potermi">potermi</w> <w lemma="applicare">applicare</w> <w>e</w> <w lemma="finire">finire</w> <w lemma="il>il</w> <w lemma="mio">mio</w> <w lemma="spartito" type="music term">spar-<w> </lb>    
+    <lb xml:id="fronte_14"> <w>tito</w> <w>per</w> <w lemma="il">l'</w><w lemma="epoca">epoca</w> <w>che</w> <w>si</w> <w lemma="desiderare">desidera</w><pc force="strong">;</pc> <w lemma="stare>stante</w> </lb>
+	    <lb xml:id="fronte_15"> <w>un</w> <w lemma="contratto">contratto</w> <w lemma="conchiudere">conchiuso</w> <w>col</w> <w lemma="questo">questo<w> <w lemma="reale">R.<add>eale</add></w></lb>		
+	    </div>
 </text>
 
  </TEI>
