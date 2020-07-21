@@ -172,8 +172,8 @@
 			<surfaceGrp n="1">
 				<surface n="1" points (CAPIRE) = ' 87,44 1284,38 1281,1616 91,1632 ' xml:id="LL1.13.II_0001">
 					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
-					<zone points = ' 1212,188 1432,104 1433,835 1237,874 ' rendition="Line" hand="#VB" xml:id="LL.13_II_line_1_01/>
-                                        <zone ulx="306" uly="84" lrx="1547" lry="90" />
+					<zone ulx="310" uly="83" lrx="1535" lry="89" />
+                                        <zone ulx="393" uly="157" lrx="1209" lry="172" />
 					<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1_02"/>
 					<zone points = ' 256,309 234,413 1275,404 1274,295 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_02"/>
 					<zone points = ' 209,420 202,532 1276,515 1279,408 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_03"/>
@@ -255,7 +255,7 @@
     <lb xml:id="fronte_12"> <w>perciò</w> <w lemma="essere">sono</w> <w lemma="nel">nel</w> <w lemma="dispiacente">dispiacente</w> <w lemma="caso>caso</w> <w>di</w> <w>non</w> </lb>
     <lb xml:id="fronte_13"> <w lemma="potermi">potermi</w> <w lemma="applicare">applicare</w> <w>e</w> <w lemma="finire">finire</w> <w lemma="il>il</w> <w lemma="mio">mio</w> <w lemma="spartito" type="music term">spar-<w> </lb>    
     <lb xml:id="fronte_14"> <w>tito</w> <w>per</w> <w lemma="il">l'</w><w lemma="epoca">epoca</w> <w>che</w> <w>si</w> <w lemma="desiderare">desidera</w><pc force="strong">;</pc> <w lemma="stare>stante</w> </lb>
-	    <lb xml:id="fronte_15"> <w>un</w> <w lemma="contratto">contratto</w> <w lemma="conchiudere">conchiuso</w> <w>col</w> <w lemma="questo">questo<w> <w lemma="reale">R.<add>eale</add></w></lb>		
+    <lb xml:id="fronte_15"> <w>un</w> <w lemma="contratto">contratto</w> <w lemma="conchiudere">conchiuso</w> <w>col</w> <w lemma="questo">questo<w> <w lemma="reale">R.<add>eale</add></w></lb>		
 	    </div>
 </text>
 
