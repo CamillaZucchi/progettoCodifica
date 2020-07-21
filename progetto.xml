@@ -174,13 +174,29 @@
 					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
 					<zone ulx="310" uly="83" lrx="1535" lry="89" />
                                         <zone ulx="393" uly="157" lrx="1209" lry="172" />
-					<zone points = ' 263,138 1273,139 1273,291 257,306 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1_02"/>
-					<zone points = ' 256,309 234,413 1275,404 1274,295 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_02"/>
-					<zone points = ' 209,420 202,532 1276,515 1279,408 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_03"/>
-					<zone points = ' 1212,188 1432,104 1433,835 1237,874 'rendition="Hotspot" hand="#OTHER" xml:id="LL1.13_II_line_2-3"/>	
-					<zone points = ' 202,535 198,663 1249,646 1237,524 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_04"/>
-					<zone points = ' 200,669 202,768 1021,720 1021,642 ' rendition="Line" hand="#VB" xml:id="LL1.31_II_line_1fr_05"/>
-					<zone points = ' 799,828 1150,786 1162,1453 805,1449 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_II_hotspot_1fr_01"/> <!--ROBO STRANO-->
+					<zone points = ' 1212,188 1432,104 1433,835 1237,874 'rendition="Hotspot" hand="#OTHER" xml:id="LL1.13_II_line_2-3"/>
+					<zone ulx="268" uly="323" lrx="1602" lry="348" />
+					<zone ulx="177" uly="440" lrx="1609" lry="443" />
+					<zone ulx="144" uly="545" lrx="1558" lry="560" />
+					<zone ulx="136" uly="638" lrx="1611" lry="640" />
+					<zone ulx="133" uly="740" lrx="1600" lry="752" />
+					<zone ulx="124" uly="830" lrx="1599" lry="839" />
+					<zone ulx="110" uly="937" lrx="1594" lry="945" />
+					<zone points = ' 60,1019 1553,968 1602,1031 ' />
+					<zone ulx="83" uly="1116" lrx="1551" lry="1133" />
+					<zone ulx="81" uly="1208" lrx="1542" lry="1251" />
+					<zone ulx="90" uly="1301" lrx="1612" lry="1355" />
+					<zone ulx="108" uly="1415" lrx="1610" lry="1472" />
+					<zone ulx="98" uly="1511" lrx="1551" lry="1557" />
+					<zone ulx="60" uly="1635" lrx="1609" lry="1679" />
+					<zone ulx="62" uly="1746" lrx="1610" lry="1789" />
+					<zone ulx="74" uly="1855" lrx="1552" lry="1878" />
+					<zone ulx="82" uly="1947" lrx="1517" lry="1979" />
+					<zone ulx="83" uly="2036" lrx="1568" lry="2065" />
+					<zone ulx="75" uly="2099" lrx="1609" lry="2150" />
+					<zone ulx="82" uly="2187" lrx="1611" lry="2226" />
+					<zone ulx="89" uly="2267" lrx="1587" lry="2303" />
+					<zone points = ' 97,2390 916,2299 1134,2301 1611,2369 ' />
 					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
 					<zone points = ' 593,1433 789,1418 853,1572 612,1600 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1fr_02"/> <!--COLLA-->
 					</surface>
