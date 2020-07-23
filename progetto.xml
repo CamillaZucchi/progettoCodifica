@@ -277,8 +277,8 @@
     <lb xml:id="fronte_18"> <w lemma="fine">fine</w> <w>di</w> <w lemma="questo">quest'</w> <w lemma="anno">anno</w><pc force="strong">.</pc> <w lemma="essere">È</w> <w lemma=mio">mio</w> <w lemma="sistema">sistema</w></lb>	
     <lb xml:id="fronte_19> <del>per scrivere</del> <w>di</w> <w>mai</w> <w lemma="accollarmi">accollarmi</w> <w lemma="tanto">tanta</w> </lb>
     <lb xml:id="fronte_20"><w lemma="fatica">fattiga</w> <w>in</w> <w lemma="un">una</w> <w lemma="volta">volta</w> <del>per fare il più</del></lb>    
-													 <lb xml:id="fronte_21><unclear reason="illegible">xxx</unclear><del>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
-													 </div>
+    <lb xml:id="fronte_21><unclear reason="illegible">xxx</unclear><del>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
+	</div>
 </text>
 
  </TEI>
