@@ -261,7 +261,7 @@
    <persName ref="#GGa"><add>Giovanni Galeota</add></salute> <mentioned xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cote fil</unclear></add></mentioned></lb>						
    <lb xml:id="fronte_3"><w lemma="il">Il</w><w lemma="lusinghiero">lusinghiero</w> <w lemma="invito">invito</w> <w>che</w> <w>per</w><w lemma="suo">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo">mezzo</w></lb>
     <lb xml:id="fronte_4"> <w lemma="ricevere"> ricevo</w> <w lemma="del">della</w> <orgName xml:id="#NS"> Nobile Società</orgName> <w>per</w> <w lemma="scrivere">scrivere</w></lb>
-    <lb xml:id="fronte_5"> <w lemma="un">un'</w> <w type="music term"> opera</w> <w>al</w> <w lemma="nostro">nostro</w> <orgName ref="#San_Carlo"> Gran teatro</orgName> <add> Teatro San Carlo</add> <w lemma="mi"> mi</w></lb>
+    <lb xml:id="fronte_5"> <w lemma="un">un'</w> <term type="music term"> opera</w> <w>al</w> <w lemma="nostro">nostro</w> <orgName ref="#San_Carlo"> Gran teatro</orgName> <add> Teatro San Carlo</add> <w lemma="mi"> mi</w></lb>
     <lb xml:id="fronte_6"> <w lemma="recare">reca</w> <w lemma="il">la</w> <w>più</w> <w lemma="piacevole">piacevole</w> <w lemma="soddisfazione">sodisfazione</w> <w>che</w></lb>
     <lb xml:id="fronte_7"> <w lemma="si">si<w> <w lemma="potere">possa</w> <w lemma"sentire">sentire</w> <pc force="strong">;</pc> <w lemma="io">io</w> <w>non</w> <w lemma="potere">potrei</w> <w lemma="rispondere">ris-</w></lb>
     <lb xml:id="fronte_8"> <w lemma="rispondere">pondere</w> <w>a</w> <w lemma="tale">tale</w> <w lemma="onore">onore</w> <w>che</w> <w lemma="impegnarsi">impegnando-</w></lb>
@@ -271,8 +271,14 @@
     <lb xml:id="fronte_12"> <w>perciò</w> <w lemma="essere">sono</w> <w lemma="nel">nel</w> <w lemma="dispiacente">dispiacente</w> <w lemma="caso>caso</w> <w>di</w> <w>non</w> </lb>
     <lb xml:id="fronte_13"> <w lemma="potermi">potermi</w> <w lemma="applicare">applicare</w> <w>e</w> <w lemma="finire">finire</w> <w lemma="il>il</w> <w lemma="mio">mio</w> <w lemma="spartito" type="music term">spar-<w> </lb>    
     <lb xml:id="fronte_14"> <w>tito</w> <w>per</w> <w lemma="il">l'</w><w lemma="epoca">epoca</w> <w>che</w> <w>si</w> <w lemma="desiderare">desidera</w><pc force="strong">;</pc> <w lemma="stare>stante</w> </lb>
-    <lb xml:id="fronte_15"> <w>un</w> <w lemma="contratto">contratto</w> <w lemma="conchiudere">conchiuso</w> <w>col</w> <w lemma="questo">questo<w> <w lemma="reale">R.<add>eale</add></w></lb>		
-	    </div>
+    <lb xml:id="fronte_15"> <w>un</w> <w lemma="contratto">contratto</w> <w lemma="conchiudere">conchiuso</w> <w>col</w> <del><w lemma="questo">questo<w></del> <orgName ref="#Teatro_italiano">R<pc force="strong">.</pc><add>eale</add></orgName></lb>		
+    <lb xml:id="fronte_16"> <w>T<pc force="strong">.</pc><add>eatro</add></w> <w lemma="italiano">Italiano</w> <w>di</w> <placeName ref="#Paris">Parigi</placeName> <w>per</w> <w lemma="comporre">comporre</w></lb>	   
+    <lb xml:id="fronte_17"> <w lemma="un">un'</w> <term type="music term">opera seria</w> <w>e</w> <w lemma="darlo">darla</w> <w>in</w> <w lemma="scena">scena</w> <w lemma="nel">nella</w> </lb>	    
+    <lb xml:id="fronte_18"> <w lemma="fine">fine</w> <w>di</w> <w lemma="questo">quest'</w> <w lemma="anno">anno</w><pc force="strong">.</pc> <w lemma="essere">È</w> <w lemma=mio">mio</w> <w lemma="sistema">sistema</w></lb>	
+    <lb xml:id="fronte_19> <del>per scrivere</del> <w>di</w> <w>mai</w> <w lemma="accollarmi">accollarmi</w> <w lemma="tanto">tanta</w> </lb>
+    <lb xml:id="fronte_20"><w lemma="fatica">fattiga</w> <w>in</w> <w lemma="un">una</w> <w lemma="volta">volta</w> <del>per fare il più</del></lb>    
+													 <lb xml:id="fronte_21><unclear reason="illegible">xxx</unclear><del>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
+													 </div>
 </text>
 
  </TEI>
