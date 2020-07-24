@@ -277,8 +277,11 @@
     <lb xml:id="fronte_18"> <w lemma="fine">fine</w> <w>di</w> <w lemma="questo">quest'</w> <w lemma="anno">anno</w><pc force="strong">.</pc> <w lemma="essere">È</w> <w lemma=mio">mio</w> <w lemma="sistema">sistema</w></lb>	
     <lb xml:id="fronte_19> <del>per scrivere</del> <w>di</w> <w>mai</w> <w lemma="accollarmi">accollarmi</w> <w lemma="tanto">tanta</w> </lb>
     <lb xml:id="fronte_20"><w lemma="fatica">fattiga</w> <w>in</w> <w lemma="un">una</w> <w lemma="volta">volta</w> <del>per fare il più</del></lb>    
-    <lb xml:id="fronte_21><unclear reason="illegible">xxx</unclear><del>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
-	</div>
+    <lb xml:id="fronte_21"><del><unclear reason="illegible">xxx</unclear>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
+    <lb xml:id="fronte_22"><w>per</w> <w>quanto</w> <w lemma="mi">mi</w> <w lemma=essere>è</w> <w>sempre</w> <w lemma="possibile">possibile</w><pc force="weak">,</pc> <w>e</w> <w>così</w> <del>giu</del></lb>
+    <lb xml:id="fronte_23"><w lemma="giustificare">giustificare</w> <w lemma="il">il</w> <w lemma="prezzo">prezzo</w> <w>che</w> <w lemma="richiedere">richiedono</w> <w lemma="il>le</w></lb>	    
+    <lb xml:id="fronte_24"> <w lemma="mio">mie</w> <w lemma="opera">opere</w><pc force="weak">,</pc> <w>ove</w> <add place="above"><del>ne</del></add> <w lemma="impiegare">impiego</w> <add place="above"><w>di</w> <w lemma="tempo">tempo</w></add> <w>in</w> <w lemma="ognuno">ognuna</w> <w>quanto</w></lb>	 
+	    </div>
 </text>
 
  </TEI>
