@@ -196,9 +196,7 @@
 					<zone ulx="75" uly="2099" lrx="1609" lry="2150" />
 					<zone ulx="82" uly="2187" lrx="1611" lry="2226" />
 					<zone ulx="89" uly="2267" lrx="1587" lry="2303" />
-					<zone points = ' 97,2390 916,2299 1134,2301 1611,2369 ' />
 					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
-					<zone points = ' 593,1433 789,1418 853,1572 612,1600 ' rendition="Hotspot" xml:id="LL1.31_II_hotspot_1fr_02"/> <!--COLLA-->
 					</surface>
 				<surface n="1" points(CAPIRE) = ' 80,1462 1621,1464 1620,2611 38,2606 ' corresp="#LL1.13.II_0002">
 					<graphic url="LL1.13.II_0002.jpg" width='1645px' height='2642px'/>
