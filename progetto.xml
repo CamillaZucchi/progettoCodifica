@@ -170,7 +170,7 @@
 	<facsimile>
 		<surfaceGrp>
 			<surfaceGrp n="1">
-				<surface n="1" points (CAPIRE) = ' 87,44 1284,38 1281,1616 91,1632 ' xml:id="LL1.13.II_0001">
+				<surface n="1" points = ' 146,87 1587,83 1606,2384 61,2415 ' xml:id="LL1.13.II_0001">
 					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
 					<zone ulx="310" uly="83" lrx="1535" lry="89" />
                                         <zone ulx="393" uly="157" lrx="1209" lry="172" />
@@ -196,11 +196,10 @@
 					<zone ulx="75" uly="2099" lrx="1609" lry="2150" />
 					<zone ulx="82" uly="2187" lrx="1611" lry="2226" />
 					<zone ulx="89" uly="2267" lrx="1587" lry="2303" />
-					<pb n="2" rend="overlap" xml:id="LL1.31_folio_2f"/>
 					</surface>
-				<surface n="1" points(CAPIRE) = ' 80,1462 1621,1464 1620,2611 38,2606 ' corresp="#LL1.13.II_0002">
-					<graphic url="LL1.13.II_0002.jpg" width='1645px' height='2642px'/>
-					CAPIRE<zone points = ' 1154,1498 787,1582 845,2290 1050,2276 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_I_hotspot_2f_01"/> <!--ROBO STRANO-->
+				<surface n="1" points = ' 106,51 1547,117 1600,2393 56,2392 ' corresp="#LL1.13.II_0002">
+					<graphic url="LL1.13.II_0002.jpg" width='1654px' height='2482px'/>
+					<zone points = ' 1154,1498 787,1582 845,2290 1050,2276 ' rendition="Hotspot" hand="h2" xml:id="LL1.31_I_hotspot_2f_01"/> <!--ROBO STRANO-->
 					<zone points = ' 420,1959 412,2065 1428,2086 1440,2005 1440,2004 1444,1998 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_01"/>
 					<zone points = ' 334,2066 326,2175 1147,2176 1346,2173 1540,2209 1554,2090 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_02"/>
 					<zone points = ' 320,2183 1535,2195 1532,2286 312,2285 ' rendition="Line" hand="#VB" xml:id="LL1.31_I_line_2f_03"/>
@@ -264,7 +263,7 @@
     <lb xml:id="fronte_7"> <w lemma="si">si<w> <w lemma="potere">possa</w> <w lemma"sentire">sentire</w> <pc force="strong">;</pc> <w lemma="io">io</w> <w>non</w> <w lemma="potere">potrei</w> <w lemma="rispondere">ris-</w></lb>
     <lb xml:id="fronte_8"> <w lemma="rispondere">pondere</w> <w>a</w> <w lemma="tale">tale</w> <w lemma="onore">onore</w> <w>che</w> <w lemma="impegnarsi">impegnando-</w></lb>
     <lb xml:id="fronte_9"> <w lemma="impegnarsi">mi</w> <w>vi</w> <w lemma="essere">è</w> <w>più</w> <w>a</w> <w lemma="comporre">comporre</w> <w lemma="il>l'</w> <w type="music term" lemma="opera">opera<w> <w>che</w> <w lemma="mi">mi</w></lb>
-    <lb xml:id="fronte_10"> <w>si</w> <w lemma="chiedere">chiede</w> <w>con</w> <w lemma="tutto">tutta</w> <w lemma="il">l'</w> <w emma="attenzione">attenzione</w> <gap reason="deleted">ed</gap> <add place="above">e con</add> <w lemma="quello">quei</w></lb> 				
+    <lb xml:id="fronte_10"> <w>si</w> <w lemma="chiedere">chiede</w> <w>con</w> <w lemma="tutto">tutta</w> <w lemma="il">l'</w> <w emma="attenzione">attenzione</w> <gap reason="deleted">ed</gap> <add place="inline">e con</add> <w lemma="quello">quei</w></lb> 				
     <lb xml:id="fronte_11"> <w lemma="mezzo">mezzi</w> <w>che</w> <w lemma="il">la</w> <w lemma="natura">natura</w> <w lemma="mi">m’</w> <w lemma="accordare">accorda</w> <pc force="weak">,</pc> <w>e</w></lb>
     <lb xml:id="fronte_12"> <w>perciò</w> <w lemma="essere">sono</w> <w lemma="nel">nel</w> <w lemma="dispiacente">dispiacente</w> <w lemma="caso>caso</w> <w>di</w> <w>non</w> </lb>
     <lb xml:id="fronte_13"> <w lemma="potermi">potermi</w> <w lemma="applicare">applicare</w> <w>e</w> <w lemma="finire">finire</w> <w lemma="il>il</w> <w lemma="mio">mio</w> <w lemma="spartito" type="music term">spar-<w> </lb>    
@@ -278,8 +277,18 @@
     <lb xml:id="fronte_21"><del><unclear reason="illegible">xxx</unclear>possibile</del> <w>per</w> <w lemma="evitare">evitare</w> <w lemma="il>i</w> <w lemma="fiasco">fiaschi</w></lb>	   
     <lb xml:id="fronte_22"><w>per</w> <w>quanto</w> <w lemma="mi">mi</w> <w lemma=essere>è</w> <w>sempre</w> <w lemma="possibile">possibile</w><pc force="weak">,</pc> <w>e</w> <w>così</w> <del>giu</del></lb>
     <lb xml:id="fronte_23"><w lemma="giustificare">giustificare</w> <w lemma="il">il</w> <w lemma="prezzo">prezzo</w> <w>che</w> <w lemma="richiedere">richiedono</w> <w lemma="il>le</w></lb>	    
-    <lb xml:id="fronte_24"> <w lemma="mio">mie</w> <w lemma="opera">opere</w><pc force="weak">,</pc> <w>ove</w> <add place="above"><del>ne</del></add> <w lemma="impiegare">impiego</w> <add place="above"><w>di</w> <w lemma="tempo">tempo</w></add> <w>in</w> <w lemma="ognuno">ognuna</w> <w>quanto</w></lb>	 
-	    </div>
+    <lb xml:id="fronte_24"> <w lemma="mio">mie</w> <term type="music term">opere</term><pc force="weak">,</pc> <w>ove</w> <add place="above"><del>ne</del></add> <w lemma="impiegare">impiego</w> <add place="inline"><w>di</w> <w lemma="tempo">tempo</w></add> <w>in</w> <w lemma="ognuno">ognuna</w> <w>quanto</w></lb>	 
+    <lb xml:id="retro_1"> <w>quanto</w> <w lemma="il">i</w> <w lemma="mio">miei</w> <w lemma="collega">colleghi</w> <w>in</w> <w>tre</w> <w>o</w> <w>quattro</w> <px force="strong">;</pc> <w>quindi</w></lb>	
+    <lb xml:id="retro_2"> <w lemma="io">io</w> <w lemma="essere">sono</w> <w lemma="pronto">pronto</w> <add place="inline"><w>e</w> <w>con</w> <w lemma="estremo">estremo</w> <w lemma="piacere">piacere</w></add> <w>ad</w> <w lemma="accettare">accettare</w> <w lemma="il">l'</w><w lemma="impegno">impegno</w></lb>    
+    <lb xml:id="retro_3"><w>di</w> <w lemma="scrivere">scrivere</w> <w lemma="un">un'</w><term type="music term">opera</term> <w lemma="per">pel</w> <add place="inline"><w lemma="mio">mio</w></add> <w lemma="paese">paese</w> <w>che<w></lb> 
+    <lb xml:id="retro_4"><w>che</w> <w lemma="mi">mi</w> <del><w lemma="allevare">allevò</w> <add place="inline"><w lemma="vedere">vide</w></add> <w lemma="crescere">crescere</w> <w>e</w> <w lemma="allevare">allevò</w> <w lemma="nel">nella</w></lb>
+	    <lb xml:id="retro_5"><w lemma="difficile">difficile</w> <w lemma="mio">mia</w> <w lemma="arte>arte</w><pc force="strong">;</pc> <w>ma</w> <w>non</w> <w lemma="potere">posso</w> <w lemma="promettere">pro-</w></lb>
+	    <lb xml:id="retro_6"><w>mettere</w> <w>d'</w><w lemma="applicarmi">applicarmi</w> <w lemma="al">al</w> <w lemma="lavoro">lavoro</w> <w>pri-</w></lb>
+	    <lb xml:id="retro_7"> <w>ma</w> <w>d'</w><w lemma="avere">aver</w> <w lemma="finire">finito</w> <w lemma="quello">quello</w> <w>per</w> <placeName ref="#Paris">Parigi</placeName></lb>
+	    <lb xml:id="retro_8"><w>ma</w> <w lemma="potere">potrei</w> <w>forse</w> <w lemma="dare">dar</w> <w lemma="il">l'</w><term type="music term">opera</term> <w lemma="per">pel</w> <add place="inline"><num type="cardinal">30</num><pc force="weak">:</pc></add> <w>Mag-</w></lb>
+	    <lb xml:id="retro_9"><w>gio</w> <w lemma="del">del</w> <num type="cardinal">1835</num><pc force="weak">:</pc> <w lemma="togliere">toltone</w> <w lemma="circostanza>circostanze</w> <w lemma="imprevisto">im-</w></lb>
+		    <lb xml:id="retro_10"><w>previste</w> <w>che</w> <w>ne</w> <w lemma="potere">potrebbero</w> <w lemma="ritardare">ritardare</w></lb>
+		    </div>
 </text>
 
  </TEI>
