@@ -172,7 +172,7 @@
 			<surfaceGrp n="1">
 				<surface n="1" points = ' 146,87 1587,83 1606,2384 61,2415 ' xml:id="LL1.13.II_0001">
 					<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
-					<zone ulx="310" uly="83" lrx="1535" lry="89" />
+					<zone ulx="310" uly="83" lrx="1535" lry="89" xml:id="LL1.13_II_line_1"/>
                                         <zone ulx="393" uly="157" lrx="1209" lry="172" />
 					<zone points = ' 1212,188 1432,104 1433,835 1237,874 'rendition="Hotspot" hand="#OTHER" xml:id="LL1.13_II_line_2-3"/>
 					<zone ulx="268" uly="323" lrx="1602" lry="348" />
