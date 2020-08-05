@@ -196,6 +196,36 @@
 					<zone ulx="75" uly="2099" lrx="1609" lry="2150" />
 					<zone ulx="82" uly="2187" lrx="1611" lry="2226" />
 					<zone ulx="89" uly="2267" lrx="1587" lry="2303" />
+					<graphic url='LL1.13.II_0002.jpg' width='1654px' height='2482px' />
+					<zone ulx="154" uly="155" lrx="1606" lry="189" /> 1
+					<zone ulx="218" uly="235" lrx="1604" lry="258" /> 2
+					<zone ulx="154" uly="155" lrx="1606" lry="189" /> 3
+					<zone ulx="230" uly="406" lrx="1590" lry="419" /> 4
+					<zone ulx="126" uly="513" lrx="1584" lry="558" /> 5
+					<zone ulx="126" uly="605" lrx="1592" lry="649" /> 6
+					<zone ulx="122" uly="702" lrx="1617" lry="772" /> 7
+					<zone ulx="109" uly="818" lrx="1615" lry="849" /> 8
+					<zone ulx="109" uly="818" lrx="1615" lry="849" /> 9
+					<zone ulx="98" uly="1034" lrx="1553" lry="1047" /> 10
+					<zone ulx="74" uly="1135" lrx="1602" lry="1157" /> 11
+					<zone ulx="101" uly="1229" lrx="1610" lry="1240" /> 12
+					<zone ulx="91" uly="1305" lrx="1493" lry="1333" /> 13
+					<zone ulx="100" uly="1422" lrx="1590" lry="1443" /> 14
+					<zone ulx="100" uly="1531" lrx="1604" lry="1555" /> 15
+					<zone ulx="97" uly="1636" lrx="1580" lry="1657" /> 16
+					<zone ulx="119" uly="1765" lrx="1575" lry="1768" /> 17
+					<zone ulx="94" uly="1853" lrx="1601" lry="1861" /> 18
+					<zone ulx="108" uly="1951" lrx="1485" lry="1962" /> 19
+					<zone ulx="104" uly="2041" lrx="1541" lry="2056" /> 20
+					<zone ulx="83" uly="2141" lrx="1605" lry="2148" /> 21
+					<zone ulx="105" uly="2203" lrx="1599" lry="2237" /> 22
+					<zone ulx="94" uly="2295" lrx="1596" lry="2298" /> 23
+					<zone ulx="71" uly="2365" lrx="1593" lry="2370" /> 24
+					<zone ulx="44" uly="37" lrx="128" lry="2293" /> 25lat
+					<zone ulx="142" uly="210" lrx="188" lry="2112" /> 26lat
+						
+					
+						
 					</surface>
 				<surface n="1" points = ' 106,51 1547,117 1600,2393 56,2392 ' corresp="#LL1.13.II_0002">
 					<graphic url="LL1.13.II_0002.jpg" width='1654px' height='2482px'/>
