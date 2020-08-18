@@ -331,8 +331,8 @@
     <lb xml:id="retro_22">to</w> <w lemma="contratto" pos="NOUN">contratti</w> <w lemma="senza" pos="PRE">senza</w> <w lemma="prima" pos="ADV">prima</w> <w lemma="sapere" pos="VER:infi">sapere</w> <w lemma="per" pos="PRE">per</w> <w lemma="quale" pos="WH">quali</w> <w lemma="persona" pos="NOUN">persone</w></lb>
     <lb xml:id="retro_23"><w lemma="dovere" pos="VER2:fin">dovrò</w> <w lemma="scrivere" pos="VER:infi">scrivere</w> <pc force="inter">)</pc></s> <s n="r_5"><w lemma="e" pos="CON">e</w> <w lemma="che" pos="CHE">che</w> <w lemma="il" pos="ART">la</w> <orgName xml:id="#NS"><w lemma="nobile" pos="ADJ">Nobile</w> <w lemma="società" pos="NOUN">Società</w></orgName> <del><w lemma="mi" pos="CLI">mi</w> <sic>corderà</sic></del></lb>
     <lb xml:id="retro_24"><w lemma="nutrire" pos="VER:fin">nutrirà</w> <w lemma="di" pos="PRE">d'</w><w lemma="avere" pos="VER:fin">avere</w> <w lemma="un" pos="ART">una</w> <w lemma="mio" pos="DET:poss">mia</w> <term type="music term"><w lemma="opera" pos="NOUN">opera</w></term> <pc force="weak">,</pc> <w lemma="avere" pos="VER:fin">avrà</w></lb></s>
-    <lb xml:id="retro_25"><s n="r_6"> <w lemma="il" pos="ART"><hi rend="uppercase">L</hi>a</w> <w lemma="bontà" pos="NOUN">bontà</w> <w lemma="di" pos="PRE">di</w> <w lemma="rendermi" pos="VER:infi:cli">rendermi</w> <w lemma="avvisare" pos="VER:ppast">avvisato</w> <w lemma="e" pos="CON">e</w> <w lemma="CON" pos="ADV">allora</w> <w lemma="parlarmi" pos="VER:infi">parlarmi</w> <w lemma="del" pos="ARTPRE">degli</w> <w lemma="obbligo" pos="NOUN">obblighi</w></lb>
-    <lb xml:id="retro_26"><w lemma="che" pos="CHE">che</w> <w lemma="dovere" pos="VER2:fin">dovrà</w> <gap atLeast="18" atMost="20" unity="chars" reason="canceled">xxx</gap> <w lemma="racchiudere" pos="VER:infi">racchiudere</w> <w lemma="il" pos="ART">il</w><w lemma="contratto" pos="NOUN">contratto</w><pc force="strong">.</pc><pc force="inter">-</pc></lb></s></pb>						       
+    <lb xml:id="retro_25" rend="rotated-90-deg"><s n="r_6"> <w lemma="il" pos="ART"><hi rend="uppercase">L</hi>a</w> <w lemma="bontà" pos="NOUN">bontà</w> <w lemma="di" pos="PRE">di</w> <w lemma="rendermi" pos="VER:infi:cli">rendermi</w> <w lemma="avvisare" pos="VER:ppast">avvisato</w> <w lemma="e" pos="CON">e</w> <w lemma="CON" pos="ADV">allora</w> <w lemma="parlarmi" pos="VER:infi">parlarmi</w> <w lemma="del" pos="ARTPRE">degli</w> <w lemma="obbligo" pos="NOUN">obblighi</w></lb>
+    <lb xml:id="retro_26" rend="rotated-90-deg"><w lemma="che" pos="CHE">che</w> <w lemma="dovere" pos="VER2:fin">dovrà</w> <gap atLeast="18" atMost="20" unity="chars" reason="canceled">xxx</gap> <w lemma="racchiudere" pos="VER:infi">racchiudere</w> <w lemma="il" pos="ART">il</w><w lemma="contratto" pos="NOUN">contratto</w><pc force="strong">.</pc><pc force="inter">-</pc></lb></s></pb>						       
 	</div>
 	    		<back>
 			<div type="notes">
@@ -350,20 +350,32 @@
 				</note>
 			</div>
 			<div type="bibliography">
-				<listBibl xml:id="LL1.34.I_bibliography">
-					<head>Bibliography of the letter LL1.34.I</head>
-					<bibl xml:id="LL1.34.I_Amore">
-						<ptr target="TEI-ListBibl.xml#Amore1892"/>
+				<listBibl xml:id="LL1.13.II_bibliography">
+					<head>Bibliography of the letter LL1.13.II</head>
+					<bibl xml:id="LL1.13.II_Amore">
+						<ptr target="TEI-ListBibl.xml#Amore1894"/>
 						<author ref="#AA">Amore</author>
-						<date when="1892">1892</date>
-						<citedRange to="351" from="351" unit="page">351</citedRange>
+						<date when="1892">1894</date>
+						<citedRange to="325" from="326" unit="page">pp. 325-326</citedRange>
 					</bibl>
-					<bibl xml:id="LL1.34.I_Neri">
+					<bibl xml:id="LL1.13.II_Cambi">
+						<ptr target="TEI-ListBibl.xml#Cambi1943">
+						<author ref="#LC">Cambi</author>	
+						<date when="1943">1943</date>	
+						<citedRange from="385" to="385">385</citedRange>
+					</bibl>		
+					<bibl xml:id="LL1.13.II_Neri">
 						<ptr target="TEI-ListBibl.xml#Neri2005"/>
 						<author ref="#CN">Neri</author>
 						<date when="2005">2005</date>
-						<citedRange to="439" from="438" unit="page">438-439</citedRange>
+						<citedRange to="275" from="276" unit="page">275-276</citedRange>
 					</bibl>
+					<bibl xml:id="LL1.13.II_Seminara">
+						<ptr target="TEI-ListBibl.xml#Seminara2017"/>
+						<author ref="#GS">Seminara</author>
+						<date when="2017">2017</date>
+						<citedRange from="328" to="328">328</citedRange>
+					</bibl>	
 				</listBibl>
 			</div>
 		</back>
