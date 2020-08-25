@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI     xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:svg="http://www.w3.org/2000/svg" 
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- Insert title for this digital text -->
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <!-- Insert information about the publication of this digital text -->
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                    <!-- Insert a bibliographic description of the source for this digital text -->
+                </p>
+                <list type="terminology">
+                    <head>Vocabulary</head>                   
+
+                      
+                    <label>
+                        <term subtype="music-term" xml:lang="it" xml:id="libretto" key="">Libretto</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#libretto" ref="http://www.treccani.it/vocabolario/libretto/">Componimento drammatico, per lo più in versi, scritto appositamente (spesso riducendo altra opera letteraria o ricavandone la materia)
+                         per offrire il testo al compositore di un’opera musicale.
+                        </gloss>
+                    </item>
+
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="opera" key="">Opera</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#opera" ref="http://www.treccani.it/vocabolario/opera/">
+						Rappresentazione scenica di un testo drammatico (libretto) in cui i personaggi si esprimono per mezzo del canto e con accompagnamento orchestrale;
+						</gloss>
+                    </item>                
+                   	
+
+					<label>
+                        <term subtype="music-term" xml:lang="it" xml:id="spartito" key="">Spartito</term>
+                    </label>
+                    <item>
+                        <gloss xml:lang="it" target="#spartito" ref="http://www.treccani.it/vocabolario/spartito/">
+                         Versione ridotta per canto e pianoforte di una composizione per canto e orchestra.
+                         </gloss>
+                    </item>
+                   
+                </list>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>This is a template for a minimal TEI header with the mandatory components:</p>
+        </body>
+    </text>
+</TEI>
