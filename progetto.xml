@@ -9,31 +9,31 @@
 			<titleStmt xml:id="title">
 				<title>Vincenzo Bellini a Giovanni Galeota, in Parigi, 14 febbraio 1834. </title>
 				<!--formato titolo: mittente a destinatario, in luogo, data di scrittura della lettera -->
-				<author ref="#VB">Vincenzo Bellini</author>
+				<author ref="listPers.xml#VB">Vincenzo Bellini</author>
 				<respStmt>
 					<resp>Transcription by</resp>
-					<name xml:id="GS">Graziella Seminara</name>
+					<name ref="listPers.xml#GS">Graziella Seminara</name>
 				</respStmt>
 			</titleStmt>
 			<editionStmt>
 				<edition>Digital Edition
-					<date when="2018-06">July 2020</date>
+					<date when="2018-06">September 2020</date>
 				</edition>
 				<respStmt>
 					<resp>Digital edition project coordineted by</resp>
-					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
-					<name xml:id="DS">Daria Spampinato</name>
+					<name ref="listPers.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="listPers.xml#DS">Daria Spampinato</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding by</resp>
-					<name ref="#AMDG">Angelo Mario Del Grosso</name>
-					<name xml:id="EC">Erica Capizzi</name>
-					<name ref="#DS">Daria Spampinato</name>
+					<name ref="listPers.xml#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="listPers.xml#EC">Erica Capizzi</name>
+					<name ref="listPers.xml#DS">Daria Spampinato</name>
 				</respStmt>
 				<respStmt>
 					<resp>Encoding letter</resp>
-					<name xml:id="CZ">Camilla Zucchi</name>
-					<name xml:id="EP">Erika Pistolesi</name>
+					<name ref="listPers.xml#CZ">Camilla Zucchi</name>
+					<name ref="listPers.xml#EP">Erika Pistolesi</name>
 				</respStmt>
 			
 			</editionStmt>
@@ -48,16 +48,16 @@
 			</publicationStmt>
 			<sourceDesc>
 				<bibl source="#Amore1894" resp="#A" from="325" to="326"> 
-					<citedRange unit="page">pagg. 325-326</citedRange>
+					<citedRange unit="page">pp. 325-326</citedRange>
 				</bibl>
 				<bibl source="#Cambi1943" resp="#C" ana="385">
-					<citedRange unit="page">pag. 385</citedRange>
+					<citedRange unit="page">p. 385</citedRange>
 				</bibl>
 				<bibl source="#Neri2005" resp="#N" from="275" to="276">
-					<citedRange unit="page">pagg. 275-276</citedRange>
+					<citedRange unit="page">pp. 275-276</citedRange>
 				</bibl>	
 				<bibl source="#Seminara2017" resp="#GS" ana="328">
-							<citedRange unit="page">pag. 328 n. 266/1</citedRange>	
+					<citedRange unit="page">p. 328 n. 266/1</citedRange>	
 				</bibl>	      
 				<msDesc corresp="#LL1.13_II">
 					<msIdentifier corresp="#LL1.13_II">
@@ -74,7 +74,7 @@
 						<msItem corresp="#LL1.13_II">
 							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
 							<title type="uniform" xml:lang="it">
-								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#GGa" role="cavalier">Giovanni Galeota</persName>, in <placeName ref="#Paris">Parigi</placeName>, <date when="1834-02-14">14 febbraio 1834</date>
+								<persName ref="listPers.xml#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="listPers.xml#GGa" role="cavalier">Giovanni Galeota</persName>, in <placeName ref="listPlace.xml#Paris">Parigi</placeName>, <date when="1834-02-14">14 febbraio 1834</date>
 							</title>
 							<textLang mainLang="it">italiano.</textLang>
 						</msItem>
@@ -84,9 +84,8 @@
 							<supportDesc>
 								<support>
 									<material>carta sottile</material>
-									<p> Documento composto da una minuta di lettere, su un unico foglio, recto e verso. MODIFICA DA QUI 
-                                        Entrambe le facce recano del testo. Il recto è sciupato in alto a sinistra e, sempre in alto, si legge male. Il verso a sua volta è sciupato in alto a sinistra ed contiene due righe scritte in verticale.
-                            		La carta è sottile e senza filigrana, di colore beige. Il testo è scritto con inchiostro nero.
+									<p> Documento composto da una minuta di lettere, su un unico foglio, recto e verso.
+                                        Entrambe le facce recano del testo. Il recto è sciupato in alto a sinistra e, sempre in alto, si legge male. Il verso a sua volta è sciupato in alto al centro e, oltre a numerose cancellazioni, contiene due righe scritte in verticale. La carta è sottile di colore beige. Il testo è scritto con inchiostro nero.
 					 							<!-- descrizione fisica della lettera -->
 									</p>
 								</support>
@@ -99,7 +98,7 @@
 								</extent>
 								<condition>
 									<!-- descrizione delle condizioni fisiche di conservazione della lettera -->
-									<p>Il recto è in condizioni discrete, il verso invece è in condizioni leggermente peggiori, se si considera che il testo è scritto anche in verticale: ciò vizia la decifrazione dello scritto.</p>
+									<p>Il recto è in condizioni discrete, il verso invece è in condizioni leggermente peggiori, se si considera che il testo è scritto anche in verticale: ciò vizia la decifrazione dello scritto e, in particoalare, di alcune cancellature.</p>
 								</condition>
 							</supportDesc>
 						</objectDesc>
@@ -127,34 +126,32 @@
 		<profileDesc>
 			<correspDesc ref="#LL1.13_II"> 
 				<correspAction type="sent">
-					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
-					<placeName ref="#Paris" type="writing">Parigi</placeName>
+					<persName ref="listPers.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="listPlace.xml#Paris" type="writing">Parigi</placeName>
 					<date when="1834-02-14" type="postmark">14 febbraio 1834</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="#GGa">Giovanni Galeota</persName>
-					<placeName ref="#Paris" type="receving">Paris</placeName>
-					<date when="1834-02-14">14 febbrao 1834</date>			
+					<persName ref="listPers.xml#GGa">Giovanni Galeota</persName>
+					<placeName ref="listPlace.xml#Paris" type="receving">Paris</placeName>
+					<date when="1834-02-14">14 febbraio 1834</date>			
 				</correspAction>
-				<correspContext>
-
-					Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName id="#San_Carlo">Teatro San Carlo</placeName>. 
-					A questi <persName ref="#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName id="#Teatro_italiano">Reale Teatro Italiano</placeName> di <placeName ref="#Paris">Parigi</placeName>
+				<correspContext>Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName ref="listPlace.xml#San_Carlo">Teatro San Carlo</placeName>. 
+					A questi <persName ref="listPers.xml#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName ref="listPlace.xml#Teatro_italiano">Reale Teatro Italiano</placeName> di <placeName ref="listPlace.xml#Paris">Parigi</placeName>
 				</correspContext>
 			</correspDesc>
 			<correspDesc ref="#LL1.13_II">
 				<correspAction type="sent">
-					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
-					<placeName ref="#Paris" type="writing">Parigi</placeName>
+					<persName ref="listPers.xml#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="listPlace.xml#Paris" type="writing">Parigi</placeName>
 					<date when="1834-02-14">14 febbraio 1834</date>
 				</correspAction>
 				<correspAction type="received">
-					<persName ref="#GGa">Giovanni Galeota</persName>
-					<placeName ref="#Napoli" type="receiving">Napoli</placeName>			
+					<persName ref="listPers.xml#GGa">Giovanni Galeota</persName>
+					<placeName ref="listPlace.xml#Napoli" type="receiving">Napoli</placeName>			
 				</correspAction>
 				<correspContext>
-					Dal testo di questa minuta si conclude che <persName ref="#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="#GGa" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'<term type="music term">opera</term> commissionatagli per e 
-					dal <placeName ref="#San_Carlo">Teatro San Carlo</placeName>.
+					Dal testo di questa minuta si conclude che <persName ref="listPers.xml#VB" role="composer">Bellini</persName> sia in difficoltà a comunicare a <persName ref="listPers.xml#GGa" role="manager">Galeota</persName> la reale situazione che lo vede costretto a rimandare di almeno sei mesi la conclusione dell'<term type="music term">opera</term> commissionatagli per e 
+					dal <placeName ref="listPlace.xml#San_Carlo">Teatro San Carlo</placeName>.
 				</correspContext>
 			</correspDesc>
 			<textClass>		
@@ -173,71 +170,66 @@
 			<graphic url="LL1.13.II_0001.jpg" width='1654px' height='2482px'/>
 					<zone ulx="310" uly="83" lrx="1535" lry="89" rendition="Line" xml:id="LL1.13_II_line_1" />
                                         <zone ulx="393" uly="157" lrx="1209" lry="172" rendition="Line"  xml:id="LL1.13_II_line_2"/>
-					<zone points="1212,188 1432,104 1433,835 1237,874" rendition="Line"  xml:id="LL1.13_II_line_3"/>
-					<zone ulx="268" uly="323" lrx="1602" lry="348" xml:id="LL1.13_II_line_4"/>
-					<zone ulx="177" uly="440" lrx="1609" lry="443" xml:id="LL1.13_II_line_5" />
-					<zone ulx="144" uly="545" lrx="1558" lry="560"  xml:id="LL1.13_II_line_6"/>
-					<zone ulx="136" uly="638" lrx="1611" lry="640" xml:id="LL1.13_II_line_7" />
-					<zone ulx="133" uly="740" lrx="1600" lry="752" xml:id="LL1.13_II_line_8"/>
-					<zone ulx="124" uly="830" lrx="1599" lry="839" xml:id="LL1.13_II_line_9"/>
-					<zone ulx="110" uly="937" lrx="1594" lry="945" xml:id="LL1.13_II_line_10"/>
-					<zone points = "60,1019 1553,968 1602,1031" xml:id="LL1.13_II_line_11"/>
-					<zone ulx="83" uly="1116" lrx="1551" lry="1133" xml:id="LL1.13_II_line_12"/>
-					<zone ulx="81" uly="1208" lrx="1542" lry="1251" xml:id="LL1.13_II_line_13"/>
-					<zone ulx="90" uly="1301" lrx="1612" lry="1355" xml:id="LL1.13_II_line_14" />
-					<zone ulx="108" uly="1415" lrx="1610" lry="1472" xml:id="LL1.13_II_line_15"/>
-					<zone ulx="98" uly="1511" lrx="1551" lry="1557" xml:id="LL1.13_II_line_16"/>
-					<zone ulx="60" uly="1635" lrx="1609" lry="1679" xml:id="LL1.13_II_line_17"/>
-					<zone ulx="62" uly="1746" lrx="1610" lry="1789" xml:id="LL1.13_II_line_18"/>
-					<zone ulx="74" uly="1855" lrx="1552" lry="1878" xml:id="LL1.13_II_line_19"/>
-					<zone ulx="82" uly="1947" lrx="1517" lry="1979" xml:id="LL1.13_II_line_20"/>
-					<zone ulx="83" uly="2036" lrx="1568" lry="2065" xml:id="LL1.13_II_line_21"/>
-					<zone ulx="75" uly="2099" lrx="1609" lry="2150" xml:id="LL1.13_II_line_22"/>
-					<zone ulx="82" uly="2187" lrx="1611" lry="2226" xml:id="LL1.13_II_line_23"/>
-					<zone ulx="89" uly="2267" lrx="1587" lry="2303" xml:id="LL1.13_II_line_24"/>
+					<zone points="1212,188 1432,104 1433,835 1237,874" rendition="Hotspot"  xml:id="LL1.13_II_line_3"/>
+					<zone ulx="268" uly="323" lrx="1602" lry="348" rendition="Line" xml:id="LL1.13_II_line_4"/>
+					<zone ulx="177" uly="440" lrx="1609" lry="443" rendition="Line" xml:id="LL1.13_II_line_5" />
+					<zone ulx="144" uly="545" lrx="1558" lry="560" rendition="Line" xml:id="LL1.13_II_line_6"/>
+					<zone ulx="136" uly="638" lrx="1611" lry="640" rendition="Line" xml:id="LL1.13_II_line_7" />
+					<zone ulx="133" uly="740" lrx="1600" lry="752" rendition="Line" xml:id="LL1.13_II_line_8"/>
+					<zone ulx="124" uly="830" lrx="1599" lry="839" rendition="Line" xml:id="LL1.13_II_line_9"/>
+					<zone ulx="110" uly="937" lrx="1594" lry="945" rendition="Line" xml:id="LL1.13_II_line_10"/>
+					<zone points = "60,1019 1553,968 1602,1031" rendition="Hotspot" xml:id="LL1.13_II_line_11"/>
+					<zone ulx="83" uly="1116" lrx="1551" lry="1133" rendition="Line" xml:id="LL1.13_II_line_12"/>
+					<zone ulx="81" uly="1208" lrx="1542" lry="1251" rendition="Line" xml:id="LL1.13_II_line_13"/>
+					<zone ulx="90" uly="1301" lrx="1612" lry="1355" rendition="Line" xml:id="LL1.13_II_line_14" />
+					<zone ulx="108" uly="1415" lrx="1610" lry="1472" rendition="Line" xml:id="LL1.13_II_line_15"/>
+					<zone ulx="98" uly="1511" lrx="1551" lry="1557" rendition="Line" xml:id="LL1.13_II_line_16"/>
+					<zone ulx="60" uly="1635" lrx="1609" lry="1679" rendition="Line" xml:id="LL1.13_II_line_17"/>
+					<zone ulx="62" uly="1746" lrx="1610" lry="1789" rendition="Line" xml:id="LL1.13_II_line_18"/>
+					<zone ulx="74" uly="1855" lrx="1552" lry="1878" rendition="Line" xml:id="LL1.13_II_line_19"/>
+					<zone ulx="82" uly="1947" lrx="1517" lry="1979" rendition="Line" xml:id="LL1.13_II_line_20"/>
+					<zone ulx="83" uly="2036" lrx="1568" lry="2065" rendition="Line" xml:id="LL1.13_II_line_21"/>
+					<zone ulx="75" uly="2099" lrx="1609" lry="2150" rendition="Line" xml:id="LL1.13_II_line_22"/>
+					<zone ulx="82" uly="2187" lrx="1611" lry="2226" rendition="Line" xml:id="LL1.13_II_line_23"/>
+					<zone ulx="89" uly="2267" lrx="1587" lry="2303" rendition="Line" xml:id="LL1.13_II_line_24"/>
 				</surface>
 					  <surface n="2" xml:id="LL1.13.II_retro">
 					<graphic url='LL1.13.II_0002.jpg' width='1654px' height='2482px' />
-					<zone ulx="154" uly="155" lrx="1606" lry="189"  xml:id="LL1.13_II_line_25"/> 1
-					<zone ulx="218" uly="235" lrx="1604" lry="258" xml:id="LL1.13_II_line_26" /> 2
-					<zone ulx="154" uly="155" lrx="1606" lry="189" xml:id="LL1.13_II_line_27" /> 3
-					<zone ulx="230" uly="406" lrx="1590" lry="419" xml:id="LL1.13_II_line_28" /> 4
-					<zone ulx="126" uly="513" lrx="1584" lry="558" xml:id="LL1.13_II_line_29"/> 5
-					<zone ulx="126" uly="605" lrx="1592" lry="649" xml:id="LL1.13_II_line_30"/> 6
-					<zone ulx="122" uly="702" lrx="1617" lry="772" xml:id="LL1.13_II_line_31"/> 7
-					<zone ulx="109" uly="818" lrx="1615" lry="849" xml:id="LL1.13_II_line_32"/> 8
-					<zone ulx="109" uly="818" lrx="1615" lry="849" xml:id="LL1.13_II_line_33" /> 9
-					<zone ulx="98" uly="1034" lrx="1553" lry="1047" xml:id="LL1.13_II_line_34"/> 10
-					<zone ulx="74" uly="1135" lrx="1602" lry="1157" xml:id="LL1.13_II_line_35"/> 11
-					<zone ulx="101" uly="1229" lrx="1610" lry="1240" xml:id="LL1.13_II_line_36"/> 12
-					<zone ulx="91" uly="1305" lrx="1493" lry="1333" xml:id="LL1.13_II_line_37"/> 13
-					<zone ulx="100" uly="1422" lrx="1590" lry="1443" xml:id="LL1.13_II_line_38"/> 14
-					<zone ulx="100" uly="1531" lrx="1604" lry="1555" xml:id="LL1.13_II_line_39"/> 15
-					<zone ulx="97" uly="1636" lrx="1580" lry="1657" xml:id="LL1.13_II_line_40"/> 16
-					<zone ulx="119" uly="1765" lrx="1575" lry="1768" xml:id="LL1.13_II_line_41"/> 17
-					<zone ulx="94" uly="1853" lrx="1601" lry="1861" xml:id="LL1.13_II_line_42" /> 18
-					<zone ulx="108" uly="1951" lrx="1485" lry="1962" xml:id="LL1.13_II_line_43"/> 19
-					<zone ulx="104" uly="2041" lrx="1541" lry="2056" xml:id="LL1.13_II_line_44"/> 20
-					<zone ulx="83" uly="2141" lrx="1605" lry="2148" xml:id="LL1.13_II_line_45" /> 21
-					<zone ulx="105" uly="2203" lrx="1599" lry="2237" xml:id="LL1.13_II_line_46" /> 22
-					<zone ulx="94" uly="2295" lrx="1596" lry="2298" xml:id="LL1.13_II_line_47"/> 23
-					<zone ulx="71" uly="2365" lrx="1593" lry="2370" xml:id="LL1.13_II_line_48"/> 24
-					<zone ulx="44" uly="37" lrx="128" lry="2293" xml:id="LL1.13_II_line_49"/> 25lat
-					<zone ulx="142" uly="210" lrx="188" lry="2112" xml:id="LL1.13_II_line_50"/> 26lat
-						
-					
-						
-					</surface>
-		
-		
-	</facsimile>						
+					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_25"/> 1
+					<zone ulx="218" uly="235" lrx="1604" lry="258" rendition="Line" xml:id="LL1.13_II_line_26" /> 2
+					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_27" /> 3
+					<zone ulx="230" uly="406" lrx="1590" lry="419" rendition="Line" xml:id="LL1.13_II_line_28" /> 4
+					<zone ulx="126" uly="513" lrx="1584" lry="558" rendition="Line" xml:id="LL1.13_II_line_29"/> 5
+					<zone ulx="126" uly="605" lrx="1592" lry="649" rendition="Line" xml:id="LL1.13_II_line_30"/> 6
+					<zone ulx="122" uly="702" lrx="1617" lry="772" rendition="Line" xml:id="LL1.13_II_line_31"/> 7
+					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_32"/> 8
+					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_33" /> 9
+					<zone ulx="98" uly="1034" lrx="1553" lry="1047" rendition="Line" xml:id="LL1.13_II_line_34"/> 10
+					<zone ulx="74" uly="1135" lrx="1602" lry="1157" rendition="Line" xml:id="LL1.13_II_line_35"/> 11
+					<zone ulx="101" uly="1229" lrx="1610" lry="1240" rendition="Line" xml:id="LL1.13_II_line_36"/> 12
+					<zone ulx="91" uly="1305" lrx="1493" lry="1333" rendition="Line" xml:id="LL1.13_II_line_37"/> 13
+					<zone ulx="100" uly="1422" lrx="1590" lry="1443" rendition="Line" xml:id="LL1.13_II_line_38"/> 14
+					<zone ulx="100" uly="1531" lrx="1604" lry="1555" rendition="Line" xml:id="LL1.13_II_line_39"/> 15
+					<zone ulx="97" uly="1636" lrx="1580" lry="1657" rendition="Line" xml:id="LL1.13_II_line_40"/> 16
+					<zone ulx="119" uly="1765" lrx="1575" lry="1768" rendition="Line" xml:id="LL1.13_II_line_41"/> 17
+					<zone ulx="94" uly="1853" lrx="1601" lry="1861" rendition="Line" xml:id="LL1.13_II_line_42" /> 18
+					<zone ulx="108" uly="1951" lrx="1485" lry="1962" rendition="Line" xml:id="LL1.13_II_line_43"/> 19
+					<zone ulx="104" uly="2041" lrx="1541" lry="2056" rendition="Line" xml:id="LL1.13_II_line_44"/> 20
+					<zone ulx="83" uly="2141" lrx="1605" lry="2148" rendition="Line" xml:id="LL1.13_II_line_45" /> 21
+					<zone ulx="105" uly="2203" lrx="1599" lry="2237" rendition="Line" xml:id="LL1.13_II_line_46" /> 22
+					<zone ulx="94" uly="2295" lrx="1596" lry="2298" rendition="Line" xml:id="LL1.13_II_line_47"/> 23
+					<zone ulx="71" uly="2365" lrx="1593" lry="2370" rendition="Line" xml:id="LL1.13_II_line_48"/> 24
+					<zone ulx="44" uly="37" lrx="128" lry="2293" rendition="Line" xml:id="LL1.13_II_line_49"/> 25lat
+					<zone ulx="142" uly="210" lrx="188" lry="2112" rendition="Line" xml:id="LL1.13_II_line_50"/> 26lat
+						</surface>
+</facsimile>						
 									
 	<text xml:lang="it">
 	<p n="1" facs="LL1.13.II_0001.jpg">
 <div type="letter-body">
 <pb xml:id="fronte" />
         <s n="f_1">					
-	<lb xml:id="fronte_1"/><hi rend="align(right)"><placeName ref="#Paris">
+	<lb xml:id="fronte_1"/><hi rend="align(right)"><placeName ref="listPlace.xml#Paris">
 	<w lemma="Parigi" pos="NPR"><hi rend="uppercase">P</hi>arigi</w></placeName> 
 	<date><num type="cardinal">14</num> <w lemma="febbraio" pos="NOUN"><hi rend="uppercase">F</hi>eb</w><add>rajo</add></date></hi>
 	<salute>	
@@ -248,7 +240,7 @@
 	<w lemma="cavaliere" pos="NOUN"><hi rend="uppercase">C</hi>avaliere</w> 
 	<persName ref="listPers.xml#GGa"><add><w pos="NPR">Giovanni</w> <w pos="NPR">Galeota</w></add></persName></salute> <mentioned xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cote fil</unclear></add></mentioned>		
 
-   <lb xml:id="fronte_3"/><w lemma="il" pos="ART">Il</w><w lemma="lusinghiero" pos="ADJ">lusinghiero</w> <w lemma="invito" pos="NOUN">invito</w> <w lemma="che" pos="CHE">che</w> <w lemma="per" pos="PRE">per</w><w lemma="suo" pos="DET:poss">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo" pos="NOUN">mezzo</w>
+   <lb xml:id="fronte_3"/><w lemma="il" pos="ART">Il</w><w lemma="lusinghiero" pos="ADJ">lusinghiero</w> <w lemma="invito" pos="NOUN">invito</w> <w lemma="che" pos="CHE">che</w> <w lemma="per" pos="PRE">per</w> <w lemma="suo" pos="DET:poss">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo" pos="NOUN">mezzo</w>
 
     <lb xml:id="fronte_4"/> <w lemma="ricevere" pos="VER:fin">ricevo</w> <w lemma="del" pos="ARTPRE">della</w> <orgName ref="listOrg.xml#NS"><w lemma="nobile" pos="ADJ">Nobile</w> <w lemma="società" pos="NOUN">Società</w></orgName> <w lemma="per" pos="PRE">per</w> <w lemma="scrivere" pos="VER:infi">scrivere</w>
 
@@ -263,7 +255,7 @@
 
     <lb xml:id="fronte_9"/>mi</w> <w lemma="vi" pos="ADV">vi</w> <w lemma="essere" pos="VER:fin">è</w> <w lemma="più" pos="ADV">più</w> <w lemma="a" pos="PRE">a</w> <w lemma="comporre" pos="VER:infi">comporre</w> <w lemma="il" pos="ART">l'</w> <term type="music term"><w lemma="opera" pos="NOUN">opera</w></term> <w lemma="che" pos="CHE">che</w> <w lemma="mi" pos="CLI">mi</w>
 
-    <lb xml:id="fronte_10"/> <w lemma="si" pos="CLI">si</w> <w lemma="chiedere" pos="VER:fin">chiede</w> <w lemma="con" pos="PRE">con</w> <w lemma="tutto" pos="ADJ">tutta</w> <w lemma="il" pos="ART">l'</w> <w lemma="attenzione" pos="NOUN">attenzione</w> <gap reason="cancelled"><w lemma="e" pos="CON">ed</w></gap> <add place="inline"><w lemma="e" pos="CON">e</w> <w lemma="con" pos="PRE">con</w></add> <w lemma="quello" pos="DET:demo">quei</w>		
+    <lb xml:id="fronte_10"/> <w lemma="si" pos="CLI">si</w> <w lemma="chiedere" pos="VER:fin">chiede</w> <w lemma="con" pos="PRE">con</w> <w lemma="tutto" pos="ADJ">tutta</w> <w lemma="il" pos="ART">l'</w><w lemma="attenzione" pos="NOUN">attenzione</w> <gap reason="cancelled"><w lemma="e" pos="CON">ed</w></gap> <add place="inline"><w lemma="e" pos="CON">e</w> <w lemma="con" pos="PRE">con</w></add> <w lemma="quello" pos="DET:demo">quei</w>		
 
     <lb xml:id="fronte_11"/> <w lemma="mezzo" pos="NOUN">mezzi</w> <w lemma="che" pos="CHE">che</w> <w lemma="il" pos="ART">la</w> <w lemma="natura" pos="NOUN">natura</w> <w lemma="mi" pos="CLI">m’</w> <w lemma="accordare" pos="VER:fin">accorda</w> <pc force="weak">,</pc> <w lemma="e" pos="CON">e</w>
 
@@ -298,7 +290,7 @@
 
     <lb xml:id="retro_2"/> <w lemma="io" pos="PRO:pers">io</w> <w lemma="essere" pos="VER:fin">sono</w> <w lemma="pronto" pos="ADJ">pronto</w> <add place="inline"><w lemma="e" pos="CON">e</w> <w lemma="con" pos="PRE">con</w> <w lemma="estremo" pos="ADJ">estremo</w> <w lemma="piacere" pos="NOUN">piacere</w></add> <w lemma="a" pos="PRE">ad</w> <w lemma="accettare" pos="VER:infi">accettare</w> <w lemma="il" pos="ART">l'</w><w lemma="impegno" pos="NOUN">impegno</w>  
 
-    <lb xml:id="retro_3"/><w lemma="di" pos="PRE">di</w> <w lemma="scrivere" pos="VER:infi">scrivere</w> <w lemma="un" pos="ART">un'</w> <term type="music term"><w lemma="opera" pos="NOUN">opera</w></term> <w lemma="per" pos="ARTPRE">pel</w> <add place="inline"><w lemma="mio" pos="DET:poss">mio</w></add> <w lemma="paese" pos="NOUN">paese</w> <w lemma="che" pos="CHE">che</w>
+    <lb xml:id="retro_3"/><w lemma="di" pos="PRE">di</w> <w lemma="scrivere" pos="VER:infi">scrivere</w> <w lemma="un" pos="ART">un'</w><term type="music term"><w lemma="opera" pos="NOUN">opera</w></term> <w lemma="per" pos="ARTPRE">pel</w> <add place="inline"><w lemma="mio" pos="DET:poss">mio</w></add> <w lemma="paese" pos="NOUN">paese</w> <w lemma="che" pos="CHE">che</w>
 
     <lb xml:id="retro_4"/><w lemma="che" pos="CHE">che</w> <w lemma="mi" pos="CLI">mi</w> <del><w lemma="allevare" pos="VER:fin">allevò</w></del> <add place="inline"><w lemma="vedere" pos="VER:fin">vide</w></add> <w lemma="crescere" pos="VER:infi">crescere</w> <w lemma="e" pos="CON">e</w> <w lemma="allevare" pos="VER:fin">allevò</w> <w lemma="nel" pos="ARTPRE">nella</w>
 
@@ -335,52 +327,53 @@
     <lb xml:id="retro_22"/>to</w> <w lemma="contratto" pos="NOUN">contratti</w> <w lemma="senza" pos="PRE">senza</w> <w lemma="prima" pos="ADV">prima</w> <w lemma="sapere" pos="VER:infi">sapere</w> <w lemma="per" pos="PRE">per</w> <w lemma="quale" pos="WH">quali</w> <w lemma="persona" pos="NOUN">persone</w>
     <lb xml:id="retro_23"/><w lemma="dovere" pos="VER2:fin">dovrò</w> <w lemma="scrivere" pos="VER:infi">scrivere</w> <pc force="inter">)</pc></s> <s n="r_6"><w lemma="e" pos="CON">e</w> <w lemma="che" pos="CHE">che</w> <w lemma="il" pos="ART">la</w> <orgName ref="listOrg.xml#NS"><w lemma="nobile" pos="ADJ">Nobile</w> <w lemma="società" pos="NOUN">Società</w></orgName> <del><w lemma="mi" pos="CLI">mi</w> <sic>corderà</sic></del>
     <lb xml:id="retro_24"/><w lemma="nutrire" pos="VER:fin">nutrirà</w> <w lemma="di" pos="PRE">d'</w><w lemma="avere" pos="VER:fin">avere</w> <w lemma="un" pos="ART">una</w> <w lemma="mio" pos="DET:poss">mia</w> <term type="music term"><w lemma="opera" pos="NOUN">opera</w></term> <pc force="weak">,</pc> <w lemma="avere" pos="VER:fin">avrà</w></s>
-    <lb xml:id="retro_25" rend="rotated-90-deg"/><s n="r_7"> <w lemma="il" pos="ART"><hi rend="uppercase">iL</hi>a</w> <w lemma="bontà" pos="NOUN">bontà</w> <w lemma="di" pos="PRE">di</w> <w lemma="rendermi" pos="VER:infi:cli">rendermi</w> <w lemma="avvisare" pos="VER:ppast">avvisato</w> <w lemma="e" pos="CON">e</w> <w lemma="CON" pos="ADV">allora</w> <w lemma="parlarmi" pos="VER:infi">parlarmi</w> <w lemma="del" pos="ARTPRE">degli</w> <w lemma="obbligo" pos="NOUN">obblighi</w>
-    <lb xml:id="retro_26" rend="rotated-90-deg"/><w lemma="che" pos="CHE">che</w> <w lemma="dovere" pos="VER2:fin">dovrà</w> <gap atLeast="18" atMost="20" unity="chars" reason="canceled">xxx</gap> <w lemma="racchiudere" pos="VER:infi">racchiudere</w> <w lemma="il" pos="ART">il</w><w lemma="contratto" pos="NOUN">contratto</w><pc force="strong">.</pc><pc force="inter">-</pc></s><ptr target="#LL1.13.II_note2"/>						       
+    <lb xml:id="retro_25" rend="rotated-90-deg"/><s n="r_7"> <w lemma="il" pos="ART"><hi rend="uppercase">L</hi>a</w> <w lemma="bontà" pos="NOUN">bontà</w> <w lemma="di" pos="PRE">di</w> <w lemma="rendermi" pos="VER:infi:cli">rendermi</w> <w lemma="avvisare" pos="VER:ppast">avvisato</w> <w lemma="e" pos="CON">e</w> <w lemma="CON" pos="ADV">allora</w> <w lemma="parlarmi" pos="VER:infi">parlarmi</w> <w lemma="del" pos="ARTPRE">degli</w> <w lemma="obbligo" pos="NOUN">obblighi</w>
+    <lb xml:id="retro_26" rend="rotated-90-deg"/><w lemma="che" pos="CHE">che</w> <w lemma="dovere" pos="VER2:fin">dovrà</w> <gap atLeast="18" atMost="20" unity="chars" reason="canceled">xxx</gap> <w lemma="racchiudere" pos="VER:infi">racchiudere</w> <w lemma="il" pos="ART">il</w> <w lemma="contratto" pos="NOUN">contratto</w><pc force="strong">.</pc><pc force="inter">-</pc></s><ptr target="#LL1.13.II_note2"/>						       
 	</div>
 	    	</p>
 			<div type="notes">
-				<note type="footnote" ana="547" resp="#GS" source="TEI-ListBibl.xml#Seminara2017" xml:id="LL1.13.II_note1">
+				<note type="footnote" ana="547" resp="#GS" source="listBibl.xml#Seminara2017" xml:id="LL1.13.II_note1">
 					<bibl>
-						<citedRange to="328" from="328" unit="page">328</citedRange>
+						<citedRange to="328" from="328" unit="page">547</citedRange>
 					</bibl>
 					<p><persName ref="listPerson.xml#GG">Giovanni Galeota</persName> era segretario della <orgName ref="listOrg.xml#Compagnia_BA">Compagnia d’Industria e Belle Arti</orgName>, che nel <date when="1834">1834</date> aveva rilevato la gestione del <orgName ref="listOrg.xml#San_Carlo">Teatro di San Carlo</orgName>. </p>
 				</note>
 				<note type="footnote" ana="548" resp="#GS" source="listBibl.xml#Seminara2017" xml:id="LL1.13.II_note2">
 					<bibl>
-						<citedRange to="328" from="328" unit="page">328</citedRange>
+						<citedRange to="328" from="328" unit="page">548</citedRange>
 					</bibl>
 					<p>Questa porzione di testo è scritta trasversalmente nel margine sinistro della seconda facciata.</p>
 				</note>
 			</div>
-<listBibl xml:id="LL1.13.II_bibliography">
+
 			<div type="bibliography">
+<listBibl xml:id="LL1.13.II_bibliography">
 					<head>Bibliography of the letter LL1.13.II</head>
-					<bibl xml:id="LL1.13.II_Amore">
-						<ptr target="listBibl.xml#Amore1894"/>
+					<bibl xml:id="LL1.13.II_Amore" type="print">
+						<ptr target="listBibl.xml#Amore1892"/>
 						<author ref="#AA">Amore</author>
 						<date when="1892">1894</date>
-						<citedRange to="325" from="326" unit="page">pp. 325-326</citedRange>
+						<citedRange to="325" from="326" unit="page">pp. 325-326;</citedRange>
 					</bibl>
-					<bibl xml:id="LL1.13.II_Cambi">
+					<bibl xml:id="LL1.13.II_Cambi" type="print">
 						<ptr target="listBibl.xml#Cambi1943"/>
 						<author ref="#LC">Cambi</author>	
 						<date when="1943">1943</date>	
-						<citedRange from="385" to="385">385</citedRange>
+						<citedRange from="385" to="385" unit="page">p. 385;</citedRange>
 					</bibl>		
-					<bibl xml:id="LL1.13.II_Neri">
+					<bibl xml:id="LL1.13.II_Neri" type="print">
 						<ptr target="listBibl.xml#Neri2005"/>
 						<author ref="#CN">Neri</author>
 						<date when="2005">2005</date>
-						<citedRange to="275" from="276" unit="page">275-276</citedRange>
+						<citedRange to="275" from="276" unit="page">pp. 275-276;</citedRange>
 					</bibl>
-					<bibl xml:id="LL1.13.II_Seminara">
+					<bibl xml:id="LL1.13.II_Seminara" type="print">
 						<ptr target="listBibl.xml#Seminara2017"/>
 						<author ref="#GS">Seminara</author>
 						<date when="2017">2017</date>
-						<citedRange from="328" to="328">328</citedRange>
+						<citedRange from="328" to="328" unit="page">p. 328.</citedRange>
 					</bibl>	
-			</div>
-</listBibl>
+			</listBibl>
+</div>
 </text>
 </TEI>
