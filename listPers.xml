@@ -21,26 +21,6 @@
         </p>
         <listPerson>
           <head>Lista Persone</head>
-					<person xml:id="GGa">
-						<persName role="segretario">
-							<forename>Giovanni</forename> 
-              <surname>Galeota</surname>
-              <roleName type="honorific">Cavaliere</roleName>
-						</persName>
-            <sex>M </sex>
-            <birth>
-            	<placeName>
-            	 	  <settlement type="municipality">Napoli</settlement>
-            	 		<settlement type="provincia" key="NA">Napoli</settlement>
-            	 		<country key="IT">Italia</country>
-            	</placeName>
-            </birth>
-            </death>
-            <note resp="#GS">
-            	Giovanni Galeota era segretario della <orgName ref="listOrg.xml#Compagnia_BA">Compagnia d’Industria e Belle Arti</orgName>, che nel 1834 aveva rilevato la gestione del <orgName ref="listOrg.xml#San_Carlo">Teatro di San Carlo</orgName>.
-            </note>          		
-					</person>
-
           <person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
          	 <persName role="composer"> <!-- esempi: composer, librettist, tenore, editor, ...-->
           		<ref target="http://data.rism.info/id/rismauthorities/pe11648 http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
@@ -48,7 +28,7 @@
           		<forename>Salvatore</forename>
           		<forename>Carmelo</forename>
           		<forename>Francesco </forename> 
-              <surname>Bellini</surname>
+              <surname>Bellini</surname></persName>
               <addName type="alias">Il Cigno</addName>
               <roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
             </persName>
@@ -70,6 +50,68 @@
             <note><!--  note da creare con l'indicazione di dove e' vissuto durante quali periodi  -->
              </note>          		
           </person>
+<person xml:id="EC"><persName role="editore"><foreName>Erica</forename>
+<surname>Capizzi</surname></persName>
+<sex>F</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
+<person xml:id="AMDG">
+<persName role="editore"><forename>Angelo Mario</forename>
+<surname>Del Grosso</surname></persName>
+<sex>M</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
+<person xml:id="EP"><persName><foreName>Erika</forename>
+<surname>Pistolesi</surname></persName>
+<sex>F</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
+					<person xml:id="GGa">
+						<persName role="segretario">
+							<forename>Giovanni</forename> 
+              <surname>Galeota</surname></persName>
+              <roleName type="honorific">Cavaliere</roleName>
+						</persName>
+            <sex>M </sex>
+            <birth>
+            	<placeName>
+            	 	  <settlement type="municipality">Napoli</settlement>
+            	 		<settlement type="provincia" key="NA">Napoli</settlement>
+            	 		<country key="IT">Italia</country>
+            	</placeName>
+            </birth>
+            </death>
+            <note resp="#GS">
+            	Giovanni Galeota era segretario della <orgName ref="listOrg.xml#Compagnia_BA">Compagnia d’Industria e Belle Arti</orgName>, che nel 1834 aveva rilevato la gestione del <orgName ref="listOrg.xml#San_Carlo">Teatro di San Carlo</orgName>.
+            </note>          		
+					</person>
+<person xml:id="GS"><persName role="editore"><foreName>Graziella</forename>
+<surname>Seminara</surname></persName>
+<sex>F</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
+<person xml:id="DS"><persName role="editore"><foreName>Daria</forename>
+<surname>Spampinato</surname></persName>
+<sex>F</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
+<person xml:id="CZ"><persName><foreName>Camilla</forename>
+<surname>Zucchi</surname></persName>
+<sex>F</sex>
+<placeName>
+<country key="IT">Italia</country>
+</placeName>
+</person>
    
     </sourceDesc>
     </fileDesc>
