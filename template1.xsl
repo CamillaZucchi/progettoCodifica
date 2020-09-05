@@ -121,7 +121,7 @@
                     <li> 
                         <a>
                             <xsl:attribute name="nome">
-                                <xsl:value-of select="./@ref"/>
+                                <xsl:value-of select="//tei:div//tei:bibliography[@source='listBibl.xml#Seminara2017']"/>
                             </xsl:attribute>
                             <xsl:apply-templates/>
                         </a>;
@@ -151,7 +151,7 @@
     </xsl:template> 
 
 <xsl:template match="tei:sourceDesc//tei:bibl">
-       <b>Edizione di riferimento:</b>
+       <b>Edizione di riferimento:</b><xsl:value-of select="//tei:titleStmt//tei:respStmt//tei:name"/><xsl:value-of select="xml:id"/>
         <xsl:apply-templates/>
     </xsl:template>  
   
