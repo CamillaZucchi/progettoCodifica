@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20%;
+    background-color: #FFCC66;
+    margin-top: 30%;
+font-family: italic;
+
+}
+
+#content{
+    width: 77%;
+    margin-left: 18%;
+}
+#h1 {
+  font-family: arial, sans-serif;
+    font-size: 300%;
+    text-align:center;
+    position: inherit;
+    margin-top: 40px;
+}
+
+/* Menu */
+#header{
+        width:100%;
+        margin-top:0px;
+        margin-left:0px;
+        margin-right:0px;
+        background-color:#ffbf00;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        font-family: arial, serif;
+        text-align:center;
+        margin-top: 1%;
+        letter-spacing:5px;
+    }
+    
+ nav { 
+        text-align: center;
+        width: 100%;    
+        padding:0px;
+        margin:0px auto;
+        display:block;
+    }
+
+ nav.a {
+        color: white;   
+        font-family: arial, sans-serif;
+        text-align:center; 
+        text-decoration:none; 
+        background: #ffbf00; 
+        margin: auto;
+    }
+
+
+
+
+/* Link */
+
+#a{
+    text-decoration: blue;
+    color: #000000;
+    font-family: italic;
+}
+
+/* Titoli */
+#h1 {
+font-family: italic;
+    text-align: center;
+    font-family: italic;
+    font-weight: bold;
+    font-size: 400%;
+}
+
+#h2{
+font-family: italic;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+#h3 {
+    font-family: arial-black, sans-serif;
+ text-align: left;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+#b{
+    font-style: italic;
+    font-weight: normal;
+     text-align: center;
+     font-size: 30%;
+     font-family: sans-serif;
+
+}
+#p{
+    font-style: italic;
+    font-weight: normal;
+     text-align: center;
+     font-size: 30%;
+     font-family: sans-serif;
+}
+/* Evidenze */
+
+.item_list{
+    font-weight: bold;
+    display: block;
+
+}
+/*immagini*/
+img {
+
+    margin-top: 40px;
+    width: 400px;
+    height: 600px;
+     margin-left: 40px;
+     display:inline-block;
+     position: relative;
+     max-width: 100%;
+     float:right;
+   
+}
+div.letter-body {
+width: 200px;
+padding-left: 10px;
+padding-right: 10px;
+border-left: 5px solid black;
+border-right: 5px solid black;
+  margin-left: 50px;
+
+}
+ #letter-body {
+      position: inherit; 
+  top:100px; 
+  left:100px;
+    float: left;
+    text-align:center;
+     font-style: italic;
+
+     
+}
+/*basso*/
+footer {
+    width: 100%;
+    padding: 2%;
+    margin-right: 3%;
+    overflow: auto;
+
+}
