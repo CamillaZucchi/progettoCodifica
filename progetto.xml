@@ -47,13 +47,13 @@
                 <date when="yyyyyy" /> va indicato l'uri dell'edizione digitale delle lettere -->
 			</publicationStmt>
 			<sourceDesc>
-				<bibl source="#Amore1894" resp="#A" from="325" to="326"> 
+				<bibl source="#Amore1894" resp="#AA" from="325" to="326"> 
 					<citedRange unit="page">pp. 325-326</citedRange>
 				</bibl>
-				<bibl source="#Cambi1943" resp="#C" ana="385">
+				<bibl source="#Cambi1943" resp="#LC" ana="385">
 					<citedRange unit="page">p. 385</citedRange>
 				</bibl>
-				<bibl source="#Neri2005" resp="#N" from="275" to="276">
+				<bibl source="#Neri2005" resp="#CN" from="275" to="276">
 					<citedRange unit="page">pp. 275-276</citedRange>
 				</bibl>	
 				<bibl source="#Seminara2017" resp="#GS" ana="328">
@@ -72,7 +72,7 @@
 					</msIdentifier>
 					<msContents>
 						<msItem corresp="#LL1.13_II">
-							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<author xml:lang="it" ref="listPers.xml#VB">Vincenzo Bellini</author>
 							<title type="uniform" xml:lang="it">
 								<persName ref="listPers.xml#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="listPers.xml#GGa" role="cavalier">Giovanni Galeota</persName>, in <placeName ref="listPlace.xml#Paris">Parigi</placeName>, <date when="1834-02-14">14 febbraio 1834</date>
 							</title>
@@ -103,11 +103,8 @@
 							</supportDesc>
 						</objectDesc>
 						<handDesc hands="2">
-							<handNote corresp="#VB"><p>
-                                Scrittura a mano libera abbastanza leggibile. Presenti cinque cancellazioni nel recto, quattro nel verso, dove si notano anche due macchie. Nel recto si notano, inoltre, anche una scritta, una sigla e una correzione interlineare; nel verso, invece, sono tre le correzioni interlineari.  
-							</p></handNote>
-							<handNote xml:id="h1">
-								<p>Scrittura a mano non leggibile: da non escludere che si tratti di una firma cifrata accompagnata da una qualche dicitura. Questi segni si trovano sul recto.
+							<handNote corresp="h1" ref="listPers.xml#VB"><p>Scrittura a mano libera abbastanza leggibile. Presenti cinque cancellazioni nel recto, quattro nel verso, dove si notano anche due macchie. Nel recto si notano, inoltre, anche una scritta, una sigla e una correzione interlineare; nel verso, invece, sono tre le correzioni interlineari.</p></handNote>
+							<handNote corresp="h2"><p>Scrittura a mano non leggibile: da non escludere che si tratti di una firma cifrata accompagnata da una qualche dicitura. Questi segni si trovano sul recto.
 								</p>
 							</handNote>
 						</handDesc>
@@ -132,8 +129,7 @@
 				</correspAction>
 				<correspAction type="received">
 					<persName ref="listPers.xml#GGa">Giovanni Galeota</persName>
-					<placeName ref="listPlace.xml#Paris" type="receving">Paris</placeName>
-					<date when="1834-02-14">14 febbraio 1834</date>			
+					<placeName ref="listPlace.xml#Napoli" type="receving">Napoli</placeName>		
 				</correspAction>
 				<correspContext>Il destinatario del messaggio è il cavaliere <persName ref="#GGa">Giovanni Galeota</persName>, allora segretario della Compagnia d’Industria e Belle Arti, il quale aveva rilevato la gestione del <placeName ref="listPlace.xml#San_Carlo">Teatro San Carlo</placeName>. 
 					A questi <persName ref="listPers.xml#VB">Bellini</persName> comunica la sua impossibilità di terminare l'opera per la data stabilita, dal momento che sta lavorando a un'altra per il <placeName ref="listPlace.xml#Teatro_italiano">Reale Teatro Italiano</placeName> di <placeName ref="listPlace.xml#Paris">Parigi</placeName>
@@ -195,32 +191,32 @@
 				</surface>
 					  <surface n="2" xml:id="LL1.13.II_retro">
 					<graphic url='LL1.13.II_0002.jpg' width='1654px' height='2482px' />
-					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_25"/> 1
-					<zone ulx="218" uly="235" lrx="1604" lry="258" rendition="Line" xml:id="LL1.13_II_line_26" /> 2
-					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_27" /> 3
-					<zone ulx="230" uly="406" lrx="1590" lry="419" rendition="Line" xml:id="LL1.13_II_line_28" /> 4
-					<zone ulx="126" uly="513" lrx="1584" lry="558" rendition="Line" xml:id="LL1.13_II_line_29"/> 5
-					<zone ulx="126" uly="605" lrx="1592" lry="649" rendition="Line" xml:id="LL1.13_II_line_30"/> 6
-					<zone ulx="122" uly="702" lrx="1617" lry="772" rendition="Line" xml:id="LL1.13_II_line_31"/> 7
-					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_32"/> 8
-					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_33" /> 9
-					<zone ulx="98" uly="1034" lrx="1553" lry="1047" rendition="Line" xml:id="LL1.13_II_line_34"/> 10
-					<zone ulx="74" uly="1135" lrx="1602" lry="1157" rendition="Line" xml:id="LL1.13_II_line_35"/> 11
-					<zone ulx="101" uly="1229" lrx="1610" lry="1240" rendition="Line" xml:id="LL1.13_II_line_36"/> 12
-					<zone ulx="91" uly="1305" lrx="1493" lry="1333" rendition="Line" xml:id="LL1.13_II_line_37"/> 13
-					<zone ulx="100" uly="1422" lrx="1590" lry="1443" rendition="Line" xml:id="LL1.13_II_line_38"/> 14
-					<zone ulx="100" uly="1531" lrx="1604" lry="1555" rendition="Line" xml:id="LL1.13_II_line_39"/> 15
-					<zone ulx="97" uly="1636" lrx="1580" lry="1657" rendition="Line" xml:id="LL1.13_II_line_40"/> 16
-					<zone ulx="119" uly="1765" lrx="1575" lry="1768" rendition="Line" xml:id="LL1.13_II_line_41"/> 17
-					<zone ulx="94" uly="1853" lrx="1601" lry="1861" rendition="Line" xml:id="LL1.13_II_line_42" /> 18
-					<zone ulx="108" uly="1951" lrx="1485" lry="1962" rendition="Line" xml:id="LL1.13_II_line_43"/> 19
-					<zone ulx="104" uly="2041" lrx="1541" lry="2056" rendition="Line" xml:id="LL1.13_II_line_44"/> 20
-					<zone ulx="83" uly="2141" lrx="1605" lry="2148" rendition="Line" xml:id="LL1.13_II_line_45" /> 21
-					<zone ulx="105" uly="2203" lrx="1599" lry="2237" rendition="Line" xml:id="LL1.13_II_line_46" /> 22
-					<zone ulx="94" uly="2295" lrx="1596" lry="2298" rendition="Line" xml:id="LL1.13_II_line_47"/> 23
-					<zone ulx="71" uly="2365" lrx="1593" lry="2370" rendition="Line" xml:id="LL1.13_II_line_48"/> 24
-					<zone ulx="44" uly="37" lrx="128" lry="2293" rendition="Line" xml:id="LL1.13_II_line_49"/> 25lat
-					<zone ulx="142" uly="210" lrx="188" lry="2112" rendition="Line" xml:id="LL1.13_II_line_50"/> 26lat
+					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_25"/> 
+					<zone ulx="218" uly="235" lrx="1604" lry="258" rendition="Line" xml:id="LL1.13_II_line_26" /> 
+					<zone ulx="154" uly="155" lrx="1606" lry="189" rendition="Line" xml:id="LL1.13_II_line_27" />
+					<zone ulx="230" uly="406" lrx="1590" lry="419" rendition="Line" xml:id="LL1.13_II_line_28" />
+					<zone ulx="126" uly="513" lrx="1584" lry="558" rendition="Line" xml:id="LL1.13_II_line_29"/>
+					<zone ulx="126" uly="605" lrx="1592" lry="649" rendition="Line" xml:id="LL1.13_II_line_30"/>
+					<zone ulx="122" uly="702" lrx="1617" lry="772" rendition="Line" xml:id="LL1.13_II_line_31"/>
+					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_32"/>
+					<zone ulx="109" uly="818" lrx="1615" lry="849" rendition="Line" xml:id="LL1.13_II_line_33" />
+					<zone ulx="98" uly="1034" lrx="1553" lry="1047" rendition="Line" xml:id="LL1.13_II_line_34"/>
+					<zone ulx="74" uly="1135" lrx="1602" lry="1157" rendition="Line" xml:id="LL1.13_II_line_35"/>
+					<zone ulx="101" uly="1229" lrx="1610" lry="1240" rendition="Line" xml:id="LL1.13_II_line_36"/>
+					<zone ulx="91" uly="1305" lrx="1493" lry="1333" rendition="Line" xml:id="LL1.13_II_line_37"/> 
+					<zone ulx="100" uly="1422" lrx="1590" lry="1443" rendition="Line" xml:id="LL1.13_II_line_38"/>
+					<zone ulx="100" uly="1531" lrx="1604" lry="1555" rendition="Line" xml:id="LL1.13_II_line_39"/>
+					<zone ulx="97" uly="1636" lrx="1580" lry="1657" rendition="Line" xml:id="LL1.13_II_line_40"/> 
+					<zone ulx="119" uly="1765" lrx="1575" lry="1768" rendition="Line" xml:id="LL1.13_II_line_41"/>
+					<zone ulx="94" uly="1853" lrx="1601" lry="1861" rendition="Line" xml:id="LL1.13_II_line_42" />
+					<zone ulx="108" uly="1951" lrx="1485" lry="1962" rendition="Line" xml:id="LL1.13_II_line_43"/>
+					<zone ulx="104" uly="2041" lrx="1541" lry="2056" rendition="Line" xml:id="LL1.13_II_line_44"/>
+					<zone ulx="83" uly="2141" lrx="1605" lry="2148" rendition="Line" xml:id="LL1.13_II_line_45" />
+					<zone ulx="105" uly="2203" lrx="1599" lry="2237" rendition="Line" xml:id="LL1.13_II_line_46" />
+					<zone ulx="94" uly="2295" lrx="1596" lry="2298" rendition="Line" xml:id="LL1.13_II_line_47"/>
+					<zone ulx="71" uly="2365" lrx="1593" lry="2370" rendition="Line" xml:id="LL1.13_II_line_48"/>
+					<zone ulx="44" uly="37" lrx="128" lry="2293" rendition="Line" xml:id="LL1.13_II_line_49"/>
+					<zone ulx="142" uly="210" lrx="188" lry="2112" rendition="Line" xml:id="LL1.13_II_line_50"/>
 						</surface>
 </facsimile>						
 									
@@ -240,7 +236,7 @@
 	<w lemma="cavaliere" pos="NOUN"><hi rend="uppercase">C</hi>avaliere</w> 
 	<persName ref="listPers.xml#GGa"><add><w pos="NPR">Giovanni</w> <w pos="NPR">Galeota</w></add></persName></salute> <mentioned xml:lang="fr"><add place="above">quatrieme<unclear reason="illegible">cote fil</unclear></add></mentioned>		
 
-   <lb xml:id="fronte_3"/><w lemma="il" pos="ART">Il</w><w lemma="lusinghiero" pos="ADJ">lusinghiero</w> <w lemma="invito" pos="NOUN">invito</w> <w lemma="che" pos="CHE">che</w> <w lemma="per" pos="PRE">per</w> <w lemma="suo" pos="DET:poss">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo" pos="NOUN">mezzo</w>
+   <lb xml:id="fronte_3"/><w lemma="il" pos="ART">Il</w> <w lemma="lusinghiero" pos="ADJ">lusinghiero</w> <w lemma="invito" pos="NOUN">invito</w> <w lemma="che" pos="CHE">che</w> <w lemma="per" pos="PRE">per</w> <w lemma="suo" pos="DET:poss">suo</w> <hi rend="superscript">GG</hi> <w lemma="mezzo" pos="NOUN">mezzo</w>
 
     <lb xml:id="fronte_4"/> <w lemma="ricevere" pos="VER:fin">ricevo</w> <w lemma="del" pos="ARTPRE">della</w> <orgName ref="listOrg.xml#NS"><w lemma="nobile" pos="ADJ">Nobile</w> <w lemma="società" pos="NOUN">Società</w></orgName> <w lemma="per" pos="PRE">per</w> <w lemma="scrivere" pos="VER:infi">scrivere</w>
 
@@ -336,7 +332,7 @@
 					<bibl>
 						<citedRange to="328" from="328" unit="page">547</citedRange>
 					</bibl>
-					<p><persName ref="listPerson.xml#GG">Giovanni Galeota</persName> era segretario della <orgName ref="listOrg.xml#Compagnia_BA">Compagnia d’Industria e Belle Arti</orgName>, che nel <date when="1834">1834</date> aveva rilevato la gestione del <orgName ref="listOrg.xml#San_Carlo">Teatro di San Carlo</orgName>. </p>
+					<p><persName ref="listPers.xml#GG">Giovanni Galeota</persName> era segretario della <orgName ref="listOrg.xml#Compagnia_BA">Compagnia d’Industria e Belle Arti</orgName>, che nel <date when="1834">1834</date> aveva rilevato la gestione del <orgName ref="listOrg.xml#San_Carlo">Teatro di San Carlo</orgName>. </p>
 				</note>
 				<note type="footnote" ana="548" resp="#GS" source="listBibl.xml#Seminara2017" xml:id="LL1.13.II_note2">
 					<bibl>
