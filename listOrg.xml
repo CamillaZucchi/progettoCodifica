@@ -23,8 +23,13 @@
                 <listOrg>
                     <head>Teatri ed Enti</head>
                     
+		<org xml:id="Compagnia_BA">
+			<orgName>Compagnia d'Industria e Belle Arti</orgName>
+			<desc></desc>
+		</org>
+
                     <!-- Società aggiunta da Camilla Zucchi e Erika Pistolesi -->
-                    <org type="opera-org" xml:id="Nob_Soc">
+                    <org type="opera-org" xml:id="NS">
                         <orgName>Nobile Società</orgName>
                         <desc>Si tratta di un ente non meglio identificato.
                         </desc>
