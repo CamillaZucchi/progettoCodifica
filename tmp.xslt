@@ -296,13 +296,16 @@
        <br/>
      </xsl:template>
 
+    <xsl:template match="tei:body">
+    <xsl:apply-templates/>
+    </xsl:template>
 
    <xsl:template match="tei:pc">
    <xsl:apply-templates/>
    </xsl:template>
     
     <xsl:template match="tei:w">
-        <xsl:apply-templates/>
+        <span><xsl:apply-templates/></span>
     </xsl:template>
     
     <xsl:template match="tei:gap">
